@@ -6,7 +6,7 @@ Every page in The Defensive Mind follows the same rules, so the handbook reads a
 
 1. **Universal.** Write for any organisation, any size, any sector. No company names, no internal hostnames, no customer data. Use neutral examples (`ACME`, `example.com`, `10.0.0.0/8`, `203.0.113.0/24`).
 2. **Vendor-agnostic.** Describe the capability first ("a SIEM", "an EDR"). Name products only as examples, and always include at least one open-source option.
-3. **Practical first, theory last.** Written for working analysts (L1-L3) and SOC managers. Intros are three lines at most. Every page answers *what do I do, how, and with which tool*: step-by-step procedures, real queries (Splunk SPL, Microsoft KQL, Elastic/OpenSearch, Wazuh), sample log lines, commands, filled-in examples, checklists and "common mistakes".
+3. **Practical first, theory last.** Written for working analysts (L1-L3) and SOC managers. Intros are three lines at most. Every page answers *what do I do, how, and with which tool*: step-by-step procedures, real queries (Splunk SPL, Microsoft KQL, Elastic/OpenSearch, IBM QRadar AQL, Wazuh), sample log lines, commands, filled-in examples, checklists and "common mistakes".
 4. **Original.** Write in your own words. Do not copy text from other projects, books or vendor documentation. Link to sources instead.
 5. **Plain English.** Short sentences. Active voice. Expand every abbreviation the first time it appears on a page, e.g. "Endpoint Detection and Response (EDR)".
 

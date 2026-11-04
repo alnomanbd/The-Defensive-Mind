@@ -29,7 +29,7 @@ Most SOC material explains *what* a SOC is. Very little shows **what an analyst 
 
 - 🧭 **Role-based field guide**, a real day for L1, L2, L3 and the SOC manager
 - 🔎 **Case walkthroughs**, alert -> triage -> investigation -> containment -> lessons, with sample logs and queries
-- 🧾 **Copy-paste queries**, the same question in Splunk SPL, Microsoft KQL, Elastic/OpenSearch and Wazuh
+- 🧾 **Copy-paste queries**, the same question in Splunk SPL, Microsoft KQL, Elastic/OpenSearch, IBM QRadar AQL and Wazuh
 - 🛡️ **Playbooks** mapped to MITRE ATT&CK, with who-does-what at each tier
 - 🎯 **Detection engineering**, Sigma rules, testing, tuning, coverage
 - 🤖 **Automation** that reduces work instead of adding noise
@@ -64,6 +64,8 @@ Most SOC material explains *what* a SOC is. Very little shows **what an analyst 
 | [08, Security Policies](docs/08-security-policies/index.md) | Policy framework, password and MFA, acceptable use, access control, reporting, employee guide *(coming soon)* |
 | [09, Templates](docs/09-templates/index.md) | Incident report, post-incident review, shift handover, monthly report, requests, risk acceptance |
 | [10, Labs and Tools](docs/10-labs-and-tools/index.md) | Open-source SOC lab, tool selection, curated resources *(coming soon)* |
+| [SOC Document Kit](docs/soc-kit/index.md) | Editable Word SOPs, playbooks, governance documents, forms and reports; 5 published, 130 planned |
+| [SOC Training](docs/training/index.md) | Separate training track T01 to T15: SIEM incl. QRadar, endpoint security (EDR, XDR, UEBA), threat intel, hunting, DFIR and more *(coming soon)* |
 
 ## Read it as a website
 

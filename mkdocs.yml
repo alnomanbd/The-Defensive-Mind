@@ -186,3 +186,22 @@ nav:
       # TODO - Open-source SOC lab: 10-labs-and-tools/open-source-soc-lab.md
       # TODO - Tool selection guide: 10-labs-and-tools/tool-selection-guide.md
       # TODO - Useful resources: 10-labs-and-tools/useful-resources.md
+  - SOC Document Kit:
+      - soc-kit/index.md
+  - SOC Training:
+      - training/index.md
+      # TODO - T01 SOC Foundations: training/t01-soc-foundations/index.md
+      # TODO - T02 SIEM Platforms: training/t02-siem-platforms/index.md
+      # TODO - T03 Log Sources: training/t03-log-sources/index.md
+      # TODO - T04 Endpoint Security: training/t04-endpoint-security/index.md
+      # TODO - T05 Network Security Monitoring: training/t05-network-security-monitoring/index.md
+      # TODO - T06 Email, Identity and Cloud: training/t06-email-identity-cloud/index.md
+      # TODO - T07 Threat Intelligence: training/t07-threat-intelligence/index.md
+      # TODO - T08 Threat Hunting: training/t08-threat-hunting/index.md
+      # TODO - T09 Detection Engineering: training/t09-detection-engineering/index.md
+      # TODO - T10 Incident Response: training/t10-incident-response/index.md
+      # TODO - T11 DFIR: training/t11-dfir/index.md
+      # TODO - T12 Malware Analysis Basics: training/t12-malware-analysis/index.md
+      # TODO - T13 SOAR and Automation: training/t13-soar-automation/index.md
+      # TODO - T14 SOC Management: training/t14-soc-management/index.md
+      # TODO - T15 Career and Interviews: training/t15-career-interviews/index.md
