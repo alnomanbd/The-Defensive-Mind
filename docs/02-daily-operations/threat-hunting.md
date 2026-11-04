@@ -5,7 +5,7 @@ How a SOC fits regular, small threat hunts into normal operations: looking for a
 !!! abstract "At a glance"
     - Audience: L2 / L3 analysts, threat hunters, SOC leads
     - Time to read: 12 minutes
-    - Outcome: you can plan, run and record a 2-hour hunt, and you have six ready hunts to start with
+    - Outcome: you can plan, run and record a 2-hour hunt, and you have seven ready hunts to start with
 
 ## Hunting is not triage
 
@@ -40,7 +40,7 @@ How a SOC fits regular, small threat hunts into normal operations: looking for a
 | 4 to 10 analysts | One hunt a week, rotating hunter |
 | More than 10 | Dedicated hunter or hunt team, monthly hunt plan driven by threat intelligence |
 
-## Six starter hunts
+## Seven starter hunts
 
 ### 1. Rare processes making outbound connections from servers (T1071, T1105)
 
