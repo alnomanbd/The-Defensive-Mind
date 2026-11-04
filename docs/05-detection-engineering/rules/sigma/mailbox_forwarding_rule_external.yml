@@ -1,0 +1,50 @@
+title: Mailbox Rule or Setting Forwards Mail to an External Address
+id: 29f53091-8690-4baa-bb57-df90108bd3d2
+status: experimental
+description: |
+    Detects creation or change of an inbox rule or mailbox setting that forwards
+    or redirects mail. Attackers who take over a mailbox add such rules to keep
+    receiving copies of mail after the password is reset, and to hide replies
+    from the real owner. The rule is written against generic hosted mail audit
+    fields (Operation, Parameters). Replace example.com in the filter with your
+    own accepted domains so that only external destinations remain. Rules that
+    also move messages to an obscure folder or mark them as read raise priority.
+references:
+    - https://attack.mitre.org/techniques/T1114/003/
+    - https://attack.mitre.org/techniques/T1564/008/
+author: The Defensive Mind
+date: 2026-10-27
+tags:
+    - attack.collection
+    - attack.t1114.003
+    - attack.defense-evasion
+    - attack.t1564.008
+logsource:
+    product: m365
+    service: exchange
+detection:
+    selection_operation:
+        Operation:
+            - 'New-InboxRule'
+            - 'Set-InboxRule'
+            - 'UpdateInboxRules'
+            - 'Set-Mailbox'
+    selection_forward:
+        Parameters|contains:
+            - 'ForwardTo'
+            - 'ForwardAsAttachmentTo'
+            - 'RedirectTo'
+            - 'ForwardingSmtpAddress'
+    filter_internal:
+        Parameters|contains: '@example.com'
+    condition: all of selection_* and not filter_internal
+fields:
+    - UserId
+    - Operation
+    - Parameters
+    - ClientIP
+falsepositives:
+    - Users forwarding to a personal address where policy allows it
+    - Shared mailboxes forwarding to an approved external partner or ticketing system
+    - Executive assistants given approved delegation that uses forwarding
+level: high

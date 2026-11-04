@@ -1,0 +1,188 @@
+site_name: The Defensive Mind
+site_description: A practical, vendor-agnostic handbook for SOC analysts (L1-L3) and SOC managers, how the work is really done.
+site_author: Abdullah Al Noman Patwary
+site_url: https://alnomanbd.github.io/The-Defensive-Mind/
+repo_url: https://github.com/alnomanbd/The-Defensive-Mind
+repo_name: alnomanbd/The-Defensive-Mind
+edit_uri: edit/main/docs/
+copyright: Content © 2026 Abdullah Al Noman Patwary, CC BY 4.0, Code MIT
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/alnomanbd
+
+nav:
+  - Home: index.md
+  - Start Here:
+      - 00-start-here/index.md
+      - What is a SOC: 00-start-here/what-is-a-soc.md
+      - How to use this handbook: 00-start-here/how-to-use-this-handbook.md
+      - Career paths: 00-start-here/career-paths.md
+      - Glossary: 00-start-here/glossary.md
+  - Field Guide:
+      - field-guide/index.md
+      - L1 analyst: field-guide/l1-analyst.md
+      - L2 analyst: field-guide/l2-analyst.md
+      # TODO - L3 analyst: field-guide/l3-analyst.md
+      # TODO - SOC manager: field-guide/soc-manager.md
+      # TODO - Investigation cheat sheet: field-guide/investigation-cheatsheet.md
+      # TODO - Walkthroughs:
+          # TODO - field-guide/walkthroughs/index.md
+          # TODO - Phishing to credential theft: field-guide/walkthroughs/case-01-phishing-to-credential-theft.md
+          # TODO - Brute force then success: field-guide/walkthroughs/case-02-brute-force-then-success.md
+          # TODO - Infostealer on a laptop: field-guide/walkthroughs/case-03-infostealer-on-laptop.md
+          # TODO - Web secret-file probing: field-guide/walkthroughs/case-04-web-secret-file-probing.md
+          # TODO - Mailbox forwarding (BEC): field-guide/walkthroughs/case-05-suspicious-mailbox-forwarding-bec.md
+          # TODO - Cloud key leak and cryptomining: field-guide/walkthroughs/case-06-cloud-key-leak-cryptomining.md
+  # TODO - Build a SOC:
+      # TODO - 01-build-a-soc/index.md
+      # TODO - Roadmap: 01-build-a-soc/roadmap.md
+      # TODO - Operating model: 01-build-a-soc/operating-model.md
+      # TODO - Team and roles: 01-build-a-soc/team-and-roles.md
+      # TODO - Technology stack: 01-build-a-soc/technology-stack.md
+      # TODO - Log source priorities: 01-build-a-soc/log-source-priorities.md
+      # TODO - Use case prioritization: 01-build-a-soc/use-case-prioritization.md
+      # TODO - Maturity model: 01-build-a-soc/maturity-model.md
+      # TODO - Budget and staffing: 01-build-a-soc/budget-and-staffing.md
+  - Daily Operations:
+      - 02-daily-operations/index.md
+      - Daily routine: 02-daily-operations/daily-routine.md
+      - Alert triage: 02-daily-operations/alert-triage.md
+      - Severity and SLA: 02-daily-operations/severity-and-sla.md
+      # TODO - Shift handover: 02-daily-operations/shift-handover.md
+      # TODO - Case management: 02-daily-operations/case-management.md
+      # TODO - Alert tuning: 02-daily-operations/alert-tuning.md
+      # TODO - Metrics and KPIs: 02-daily-operations/metrics-and-kpis.md
+      # TODO - Threat hunting: 02-daily-operations/threat-hunting.md
+  # TODO - Incident Response:
+      # TODO - 03-incident-response/index.md
+      # TODO - IR lifecycle: 03-incident-response/ir-lifecycle.md
+      # TODO - Incident classification: 03-incident-response/incident-classification.md
+      # TODO - Escalation and communication: 03-incident-response/escalation-and-communication.md
+      # TODO - Evidence handling: 03-incident-response/evidence-handling.md
+      # TODO - Post-incident review: 03-incident-response/post-incident-review.md
+      # TODO - Tabletop exercises: 03-incident-response/tabletop-exercises.md
+  - Playbooks:
+      - 04-playbooks/index.md
+      - Template: 04-playbooks/playbook-template.md
+      - PB-01 Phishing: 04-playbooks/phishing.md
+      - PB-02 Account compromise: 04-playbooks/account-compromise.md
+      - PB-03 Credential leak (dark web): 04-playbooks/credential-leak-dark-web.md
+      - PB-04 Brute force: 04-playbooks/brute-force.md
+      # TODO - PB-05 Web application attack: 04-playbooks/web-application-attack.md
+      # TODO - PB-06 Malware / infostealer: 04-playbooks/malware-infostealer.md
+      # TODO - PB-07 Ransomware: 04-playbooks/ransomware.md
+      # TODO - PB-08 Data exfiltration: 04-playbooks/data-exfiltration.md
+      # TODO - PB-09 Insider threat: 04-playbooks/insider-threat.md
+      # TODO - PB-10 DDoS: 04-playbooks/ddos.md
+      # TODO - PB-11 Business email compromise: 04-playbooks/business-email-compromise.md
+      # TODO - PB-12 Cloud account compromise: 04-playbooks/cloud-account-compromise.md
+  - Detection Engineering:
+      - 05-detection-engineering/index.md
+      - Detection lifecycle: 05-detection-engineering/detection-lifecycle.md
+      - Writing good detections: 05-detection-engineering/writing-good-detections.md
+      - Sigma primer: 05-detection-engineering/sigma-primer.md
+      # TODO - Testing and tuning: 05-detection-engineering/testing-and-tuning.md
+      # TODO - Coverage mapping: 05-detection-engineering/coverage-mapping.md
+  - Threat Intelligence:
+      - 06-threat-intelligence/index.md
+      - TI lifecycle: 06-threat-intelligence/ti-lifecycle.md
+      - Dark web and credential monitoring: 06-threat-intelligence/dark-web-and-credential-monitoring.md
+      - External attack surface: 06-threat-intelligence/external-attack-surface-management.md
+      # TODO - IOC management: 06-threat-intelligence/ioc-management.md
+  # TODO - Automation (SOAR):
+      # TODO - 07-automation-soar/index.md
+      # TODO - SOAR principles: 07-automation-soar/soar-principles.md
+      # TODO - Automation catalog: 07-automation-soar/automation-catalog.md
+      # TODO - Alert fatigue and notifications: 07-automation-soar/alert-fatigue-and-notifications.md
+      # TODO - Case deduplication: 07-automation-soar/case-deduplication.md
+  # TODO - Security Policies:
+      # TODO - 08-security-policies/index.md
+      # TODO - Policy framework: 08-security-policies/policy-framework.md
+      # TODO - Password and MFA: 08-security-policies/password-and-mfa-policy.md
+      # TODO - Acceptable use and endpoint: 08-security-policies/acceptable-use-and-endpoint-policy.md
+      # TODO - Access control: 08-security-policies/access-control-policy.md
+      # TODO - Incident reporting: 08-security-policies/incident-reporting-policy.md
+      # TODO - Employee security guide: 08-security-policies/employee-security-guide.md
+  - Templates:
+      - 09-templates/index.md
+      - Incident report: 09-templates/incident-report.md
+      - Post-incident review: 09-templates/post-incident-review-template.md
+      - Shift handover: 09-templates/shift-handover-template.md
+      - Monthly SOC report: 09-templates/monthly-soc-report.md
+      - Detection request: 09-templates/detection-request.md
+      - Risk acceptance: 09-templates/risk-acceptance.md
+      - Tabletop exercise: 09-templates/tabletop-exercise-template.md
+      - Log source onboarding: 09-templates/log-source-onboarding-request.md
+      - Change request: 09-templates/change-request.md
+  - Labs and Tools:
+      - 10-labs-and-tools/index.md
+      # TODO - Open-source SOC lab: 10-labs-and-tools/open-source-soc-lab.md
+      # TODO - Tool selection guide: 10-labs-and-tools/tool-selection-guide.md
+      # TODO - Useful resources: 10-labs-and-tools/useful-resources.md

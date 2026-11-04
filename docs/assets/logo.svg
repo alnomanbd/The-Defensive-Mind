@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 245" role="img" aria-label="The Defensive Mind logo">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3ddc97"/><stop offset="1" stop-color="#1f9e8a"/>
+    </linearGradient>
+  </defs>
+  <path d="M105 0 L210 38 V118 C210 178 165 222 105 245 C45 222 0 178 0 118 V38 Z" fill="url(#s)"/>
+  <path d="M105 18 L192 50 V118 C192 168 155 205 105 226 C55 205 18 168 18 118 V50 Z" fill="#0b1d33"/>
+  <g stroke="#3ddc97" stroke-width="5" stroke-linecap="round">
+    <line x1="70" y1="80" x2="105" y2="110"/><line x1="140" y1="80" x2="105" y2="110"/>
+    <line x1="105" y1="110" x2="70" y2="150"/><line x1="105" y1="110" x2="140" y2="150"/>
+    <line x1="70" y1="150" x2="105" y2="185"/><line x1="140" y1="150" x2="105" y2="185"/>
+    <line x1="70" y1="80" x2="70" y2="150"/><line x1="140" y1="80" x2="140" y2="150"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="70" cy="80" r="10"/><circle cx="140" cy="80" r="10"/><circle cx="105" cy="110" r="12"/>
+    <circle cx="70" cy="150" r="10"/><circle cx="140" cy="150" r="10"/><circle cx="105" cy="185" r="10"/>
+  </g>
+</svg>

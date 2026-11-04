@@ -1,0 +1,51 @@
+title: Server Resolving a Paste or Anonymous File-Sharing Service
+id: 6443e862-b7c7-4257-89e4-dedb585e4b9f
+status: experimental
+description: |
+    Detects DNS lookups for public paste sites and anonymous file-transfer
+    services when the query comes from a server network. Servers rarely have a
+    business reason to visit these services, while attackers use them to pull
+    down second-stage tools and to push out stolen data. Workstations are left
+    out on purpose because staff browse these sites legitimately.
+    Replace the placeholder server ranges with your own. The domain list is an
+    indicator list and will age; review it at every quarterly rule review.
+references:
+    - https://attack.mitre.org/techniques/T1105/
+    - https://attack.mitre.org/techniques/T1567/002/
+    - https://attack.mitre.org/techniques/T1102/
+author: The Defensive Mind
+date: 2026-10-27
+tags:
+    - attack.command-and-control
+    - attack.t1105
+    - attack.t1102
+    - attack.exfiltration
+    - attack.t1567.002
+logsource:
+    category: dns
+detection:
+    selection_domain:
+        query|endswith:
+            - 'pastebin.com'
+            - 'paste.ee'
+            - 'hastebin.com'
+            - 'termbin.com'
+            - 'transfer.sh'
+            - 'file.io'
+            - 'gofile.io'
+            - 'temp.sh'
+            - '0x0.st'
+            - 'catbox.moe'
+    selection_server_source:
+        src_ip|cidr:
+            - '10.10.0.0/16'
+            - '10.20.0.0/16'
+    condition: all of selection_*
+fields:
+    - src_ip
+    - query
+    - answer
+falsepositives:
+    - Developers or administrators testing from a server shell
+    - Build servers fetching an approved public snippet (pin it and filter by host)
+level: medium

@@ -1,0 +1,35 @@
+title: Direct SSH Login as Root Accepted
+id: eea56931-6693-4cd9-9d48-d9c9ac056a46
+status: experimental
+description: |
+    Detects a successful SSH login straight into the root account. Most hardening
+    baselines disable direct root login so that every administrative action is
+    tied to a named person who then elevates. A direct root login therefore
+    means either a configuration drift or someone using a shared or stolen root
+    credential or key. Check the source address, whether password or key was
+    used, and what was run in the session.
+references:
+    - https://attack.mitre.org/techniques/T1078/003/
+    - https://attack.mitre.org/techniques/T1021/004/
+author: The Defensive Mind
+date: 2026-10-27
+tags:
+    - attack.initial-access
+    - attack.t1078.003
+    - attack.lateral-movement
+    - attack.t1021.004
+logsource:
+    product: linux
+    service: auth
+detection:
+    keywords:
+        - 'Accepted password for root from'
+        - 'Accepted publickey for root from'
+        - 'Accepted keyboard-interactive/pam for root from'
+        - 'Accepted gssapi-with-mic for root from'
+    condition: keywords
+falsepositives:
+    - Appliances and legacy systems that only support root login
+    - Orchestration or backup tooling configured to connect as root (document and scope by source address)
+    - Console recovery during an outage
+level: high

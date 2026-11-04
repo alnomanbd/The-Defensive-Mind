@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
+  <title id="t">The Defensive Mind</title>
+  <desc id="d">A practical, vendor-agnostic handbook for building and running a Security Operations Center</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1d33"/>
+      <stop offset="1" stop-color="#16325c"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3ddc97"/>
+      <stop offset="1" stop-color="#1f9e8a"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+  <!-- radar rings -->
+  <g fill="none" stroke="#3ddc97" stroke-opacity="0.18">
+    <circle cx="1100" cy="160" r="70"/><circle cx="1100" cy="160" r="120"/><circle cx="1100" cy="160" r="170"/>
+  </g>
+  <path d="M1100 160 L1240 90 A170 170 0 0 1 1265 170 Z" fill="#3ddc97" fill-opacity="0.12"/>
+  <circle cx="1170" cy="115" r="6" fill="#ff6b6b"/><circle cx="1040" cy="220" r="5" fill="#ffd166"/><circle cx="1180" cy="230" r="4" fill="#3ddc97"/>
+  <!-- shield with network "mind" -->
+  <g transform="translate(110 55)">
+    <path d="M105 0 L210 38 V118 C210 178 165 222 105 245 C45 222 0 178 0 118 V38 Z" fill="url(#shield)"/>
+    <path d="M105 18 L192 50 V118 C192 168 155 205 105 226 C55 205 18 168 18 118 V50 Z" fill="#0b1d33" fill-opacity="0.85"/>
+    <g stroke="#3ddc97" stroke-width="3" stroke-linecap="round">
+      <line x1="70" y1="80" x2="105" y2="110"/><line x1="140" y1="80" x2="105" y2="110"/>
+      <line x1="105" y1="110" x2="70" y2="150"/><line x1="105" y1="110" x2="140" y2="150"/>
+      <line x1="70" y1="150" x2="105" y2="185"/><line x1="140" y1="150" x2="105" y2="185"/>
+      <line x1="70" y1="80" x2="70" y2="150"/><line x1="140" y1="80" x2="140" y2="150"/>
+    </g>
+    <g fill="#ffffff">
+      <circle cx="70" cy="80" r="8"/><circle cx="140" cy="80" r="8"/><circle cx="105" cy="110" r="10"/>
+      <circle cx="70" cy="150" r="8"/><circle cx="140" cy="150" r="8"/><circle cx="105" cy="185" r="8"/>
+    </g>
+  </g>
+  <text x="370" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">The Defensive Mind</text>
+  <text x="372" y="200" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#cfe3ff">Build, run and grow a Security Operations Center: practical, vendor-agnostic, open</text>
+  <text x="372" y="246" font-family="Consolas, Menlo, monospace" font-size="20" fill="#3ddc97">detect | respond | automate | improve</text>
+</svg>

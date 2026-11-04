@@ -1,0 +1,43 @@
+title: Cloud Management Console Login Succeeded Without MFA
+id: 10e0a122-3f3c-4924-a77f-23ef8ccdd3ca
+status: experimental
+description: |
+    Detects a successful sign-in to the AWS management console where the
+    audit record states that Multi-Factor Authentication (MFA) was not used.
+    Console access with only a password is a policy gap at best and an account
+    takeover at worst. Federated single sign-on sessions report MFA as not used
+    because MFA happened at the identity provider; those are filtered out. Any
+    root account login without MFA should be treated as critical regardless of
+    this rule's level.
+references:
+    - https://attack.mitre.org/techniques/T1078/004/
+author: The Defensive Mind
+date: 2026-10-27
+tags:
+    - attack.initial-access
+    - attack.persistence
+    - attack.t1078.004
+logsource:
+    product: aws
+    service: cloudtrail
+detection:
+    selection:
+        eventSource: 'signin.amazonaws.com'
+        eventName: 'ConsoleLogin'
+        additionalEventData.MFAUsed: 'No'
+        responseElements.ConsoleLogin: 'Success'
+    filter_federated:
+        userIdentity.type:
+            - 'AssumedRole'
+            - 'FederatedUser'
+    condition: selection and not filter_federated
+fields:
+    - userIdentity.arn
+    - userIdentity.type
+    - sourceIPAddress
+    - userAgent
+    - awsRegion
+falsepositives:
+    - Break-glass accounts used during an approved emergency (should still be reviewed)
+    - Newly created users signing in for the first time before enrolling MFA
+level: medium

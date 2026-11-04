@@ -1,0 +1,37 @@
+title: SSH Password Login Accepted - Candidate for Brute-Force Success
+id: d3ada5d9-a315-4e39-80fd-b19cebbee49c
+status: experimental
+description: |
+    Matches successful SSH logins that used password or keyboard-interactive
+    authentication. On its own this event is normal, so the rule is written as a
+    building block and kept at low level. Its value comes from the threshold
+    applied in the SIEM: raise to high when the same source address produced
+    five or more "Failed password" or "Invalid user" events in the ten minutes
+    before this success. That sequence suggests a guessed password.
+    This rule is deliberately correlation-free so it converts to every backend;
+    implement the threshold as a correlation, a scheduled search, or a
+    lookup of recent failures keyed on source IP and target host.
+    Servers that only allow key-based login should never produce this event.
+references:
+    - https://attack.mitre.org/techniques/T1110/001/
+    - https://attack.mitre.org/techniques/T1078/
+author: The Defensive Mind
+date: 2026-10-27
+tags:
+    - attack.credential-access
+    - attack.t1110.001
+    - attack.initial-access
+    - attack.t1078
+logsource:
+    product: linux
+    service: auth
+detection:
+    keywords:
+        - 'Accepted password for'
+        - 'Accepted keyboard-interactive/pam for'
+    condition: keywords
+falsepositives:
+    - Administrators who mistype a password several times before succeeding
+    - Jump hosts and bastions where password login is still permitted by design
+    - Automation that retries with stale credentials before using the correct ones
+level: low

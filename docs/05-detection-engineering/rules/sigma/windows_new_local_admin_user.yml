@@ -1,0 +1,44 @@
+title: Local Account Created or Added to Built-in Administrators Group
+id: bfa10a0b-2569-4615-81f8-cdb1640a02d9
+status: experimental
+description: |
+    Detects the two halves of a common persistence step on Windows: a new local
+    account being created (event 4720) and an account being added to the
+    built-in Administrators group (event 4732 with the well-known group SID
+    S-1-5-32-544). Either event alone is worth review on servers. When both
+    occur on the same host for the same account within a short window, treat
+    it as high priority: someone created a new administrator.
+    Join the two events in the SIEM on Computer and on TargetSid (4720) equal to
+    MemberSid (4732). On domain controllers event 4720 describes domain accounts;
+    route those to the identity team's use case instead.
+references:
+    - https://attack.mitre.org/techniques/T1136/001/
+    - https://attack.mitre.org/techniques/T1098/
+author: The Defensive Mind
+date: 2026-10-27
+tags:
+    - attack.persistence
+    - attack.t1136.001
+    - attack.privilege-escalation
+    - attack.t1098
+logsource:
+    product: windows
+    service: security
+detection:
+    selection_user_created:
+        EventID: 4720
+    selection_added_to_admins:
+        EventID: 4732
+        TargetSid: 'S-1-5-32-544'
+    condition: 1 of selection_*
+fields:
+    - Computer
+    - SubjectUserName
+    - TargetUserName
+    - TargetSid
+    - MemberSid
+falsepositives:
+    - Approved provisioning by IT using a change ticket
+    - Endpoint management or imaging tools that create a local support account
+    - Local Administrator Password Solution style tooling that manages a local admin account
+level: medium
