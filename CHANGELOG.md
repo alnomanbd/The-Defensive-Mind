@@ -8,6 +8,8 @@ All notable changes to The Defensive Mind. Newest first.
 - SOC Document Kit: 21 Word documents (SOP-01 to SOP-10, TPL-01 to TPL-11) and the full catalogue of 130
 - SOC Training section with the 15-module plan
 - IBM QRadar AQL added to the query languages
+- Incident response section complete: lifecycle, classification, escalation and communication, evidence handling, post-incident review, tabletop exercises
+- Plan for modern and AI-driven SOC content (T16 to T18, SOP-51 to 64, PB-41 to 46)
 
 ## [0.1.0], 2026-11-04
 

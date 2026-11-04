@@ -120,14 +120,14 @@ nav:
       - Alert tuning: 02-daily-operations/alert-tuning.md
       - Metrics and KPIs: 02-daily-operations/metrics-and-kpis.md
       - Threat hunting: 02-daily-operations/threat-hunting.md
-  # TODO - Incident Response:
-      # TODO - 03-incident-response/index.md
-      # TODO - IR lifecycle: 03-incident-response/ir-lifecycle.md
-      # TODO - Incident classification: 03-incident-response/incident-classification.md
-      # TODO - Escalation and communication: 03-incident-response/escalation-and-communication.md
-      # TODO - Evidence handling: 03-incident-response/evidence-handling.md
-      # TODO - Post-incident review: 03-incident-response/post-incident-review.md
-      # TODO - Tabletop exercises: 03-incident-response/tabletop-exercises.md
+  - Incident Response:
+      - 03-incident-response/index.md
+      - IR lifecycle: 03-incident-response/ir-lifecycle.md
+      - Incident classification: 03-incident-response/incident-classification.md
+      - Escalation and communication: 03-incident-response/escalation-and-communication.md
+      - Evidence handling: 03-incident-response/evidence-handling.md
+      - Post-incident review: 03-incident-response/post-incident-review.md
+      - Tabletop exercises: 03-incident-response/tabletop-exercises.md
   - Playbooks:
       - 04-playbooks/index.md
       - Template: 04-playbooks/playbook-template.md
@@ -205,3 +205,6 @@ nav:
       # TODO - T13 SOAR and Automation: training/t13-soar-automation/index.md
       # TODO - T14 SOC Management: training/t14-soc-management/index.md
       # TODO - T15 Career and Interviews: training/t15-career-interviews/index.md
+      # TODO - T16 Modern SOC Architecture: training/t16-modern-soc/index.md
+      # TODO - T17 AI-Driven SOC: training/t17-ai-driven-soc/index.md
+      # TODO - T18 Securing AI Systems: training/t18-securing-ai/index.md
