@@ -6,7 +6,7 @@ The Defensive Mind grows step by step. Planned additions:
 
 Pages that show "This page is being written" are planned and come first:
 
-- [ ] Daily operations: shift handover, case management, alert tuning, metrics and KPIs, threat hunting
+- [x] Daily operations: shift handover, case management, alert tuning, metrics and KPIs, threat hunting
 - [ ] Incident response: the full section (lifecycle, classification, escalation, evidence, post-incident review, tabletop exercises)
 - [ ] Build a SOC: the full section (roadmap, operating model, team, technology stack, log sources, use cases, maturity, budget)
 - [ ] Playbooks: web application attack, malware and infostealer, ransomware, data exfiltration, insider threat, DDoS, BEC, cloud account compromise

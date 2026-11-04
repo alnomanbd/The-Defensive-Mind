@@ -115,11 +115,11 @@ nav:
       - Daily routine: 02-daily-operations/daily-routine.md
       - Alert triage: 02-daily-operations/alert-triage.md
       - Severity and SLA: 02-daily-operations/severity-and-sla.md
-      # TODO - Shift handover: 02-daily-operations/shift-handover.md
-      # TODO - Case management: 02-daily-operations/case-management.md
-      # TODO - Alert tuning: 02-daily-operations/alert-tuning.md
-      # TODO - Metrics and KPIs: 02-daily-operations/metrics-and-kpis.md
-      # TODO - Threat hunting: 02-daily-operations/threat-hunting.md
+      - Shift handover: 02-daily-operations/shift-handover.md
+      - Case management: 02-daily-operations/case-management.md
+      - Alert tuning: 02-daily-operations/alert-tuning.md
+      - Metrics and KPIs: 02-daily-operations/metrics-and-kpis.md
+      - Threat hunting: 02-daily-operations/threat-hunting.md
   # TODO - Incident Response:
       # TODO - 03-incident-response/index.md
       # TODO - IR lifecycle: 03-incident-response/ir-lifecycle.md

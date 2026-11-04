@@ -165,15 +165,15 @@ SOC Training is its own part of the website, apart from the handbook and this ki
 | T01 SOC Foundations | What a SOC does, tiers, alert lifecycle, TP/FP/BTP, severity, the daily rhythm, reports |
 | T02 SIEM Platforms | Splunk (SPL), Microsoft Sentinel (KQL), Elastic and OpenSearch, IBM QRadar (AQL), Wazuh: architecture, search basics, the same 20 questions in every query language |
 | T03 Log Sources Every Analyst Must Know | Windows event IDs, Sysmon, Linux auth and auditd, web server, firewall, proxy, DNS, email, identity provider, cloud audit logs |
-| T04 Endpoint Security | EPP and NGAV, EDR, XDR, MDR, UEBA, NDR, DLP, HIPS, application allow-listing, device control, FIM, Sysmon, osquery, Wazuh agent, Velociraptor, MDM and UEM, CIS hardening |
+| T04 Endpoint Security | EPP and NGAV, EDR, XDR, MDR, UEBA, NDR, DLP, HIPS, application allow-listing, device control, FIM, Sysmon, osquery (fleet queries, packs, FleetDM), Wazuh agent, Velociraptor, MDM and UEM, CIS hardening |
 | T05 Network Security Monitoring | Zeek, Suricata, NetFlow, PCAP basics, DNS and proxy analysis |
 | T06 Email, Identity and Cloud Security | Mail flow and headers, Entra ID and Okta logs, AWS, Azure and Google Cloud audit logs |
 | T07 Threat Intelligence | CTI lifecycle, intelligence requirements, Kill Chain, Diamond Model, MITRE ATT&CK, Pyramid of Pain, STIX and TAXII, MISP and OpenCTI, writing intel reports |
-| T08 Threat Hunting | Hunting models (hypothesis, intel, analytics driven), PEAK and TaHiTI, data you need, hunt library by ATT&CK tactic, from hunt to detection |
-| T09 Detection Engineering | Detection as code, Sigma, testing with Atomic Red Team, MITRE Caldera and Infection Monkey, tuning, ATT&CK coverage |
+| T08 Threat Hunting | Live hunting with osquery and Velociraptor, YARA sweeps, hunting models (hypothesis, intel, analytics driven), PEAK and TaHiTI, data you need, hunt library by ATT&CK tactic, from hunt to detection |
+| T09 Detection Engineering | Detection as code, Sigma rule writing and conversion (sigma-cli, pySigma backends), YARA rule writing and testing, testing with Atomic Red Team, MITRE Caldera and Infection Monkey, tuning, ATT&CK coverage |
 | T10 Incident Response | IR lifecycle in depth, containment decisions, communication, major incidents, tabletop practice |
 | T11 DFIR | Windows, Linux, memory, network, cloud and email forensics, timelines, KAPE, Velociraptor, Volatility, Plaso, chain of custody |
-| T12 Malware Analysis Basics | Safe lab, static and dynamic triage, sandboxes, YARA |
+| T12 Malware Analysis Basics | Safe lab, static and dynamic triage, sandboxes, YARA rules from samples, YARA sweeps with Velociraptor and osquery |
 | T13 SOAR and Automation | What to automate, enrichment, case creation, approvals, n8n and Shuffle examples |
 | T14 SOC Management | KPIs, staffing and shifts, reporting to management, maturity, budget |
 | T15 Career and Interviews | L1 to L3 skill paths, certifications, interview question bank with model answers |

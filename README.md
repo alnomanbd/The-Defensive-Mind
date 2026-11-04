@@ -55,7 +55,7 @@ Most SOC material explains *what* a SOC is. Very little shows **what an analyst 
 | [00, Start Here](docs/00-start-here/index.md) | What a SOC does, how to use this handbook, career paths, glossary |
 | [Field Guide](docs/field-guide/index.md) | L1 and L2 field guides; L3, manager, cheat sheet and 6 case walkthroughs *(coming soon)* |
 | [01, Build a SOC](docs/01-build-a-soc/index.md) | 12-month roadmap, operating model, team sizing, stack, log sources, use cases, maturity *(coming soon)* |
-| [02, Daily Operations](docs/02-daily-operations/index.md) | Routines, triage, severity and SLA; handover, case management, tuning, KPIs, hunting *(coming soon)* |
+| [02, Daily Operations](docs/02-daily-operations/index.md) | Routines, triage, severity and SLA, handover, case management, tuning, KPIs, hunting with osquery and YARA |
 | [03, Incident Response](docs/03-incident-response/index.md) | Lifecycle, classification, escalation, evidence, post-incident review, tabletop exercises *(coming soon)* |
 | [04, Playbooks](docs/04-playbooks/index.md) | Phishing, account compromise, dark-web credential leak, brute force; web attack, infostealer, ransomware, exfiltration, insider, DDoS, BEC, cloud *(coming soon)* |
 | [05, Detection Engineering](docs/05-detection-engineering/index.md) | Lifecycle, writing detections, Sigma primer, rule library; testing, ATT&CK coverage *(coming soon)* |
