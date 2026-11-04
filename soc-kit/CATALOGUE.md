@@ -131,11 +131,11 @@ Status: **Done** = published, **Next** = in the current batch, blank = planned.
 | TPL-04 | Monthly SOC Report | Monthly | Done |
 | TPL-05 | Quarterly Executive Report | Quarterly | Done |
 | TPL-06 | Annual SOC Report | Yearly | Done |
-| TPL-07 | Incident Report: Initial Notification | Per incident | |
-| TPL-08 | Incident Report: Final | Per incident | |
-| TPL-09 | Incident Timeline and Decision Log | Per incident | |
-| TPL-10 | Post-Incident Review | Per incident | |
-| TPL-11 | Situation Report (sitrep) for Stakeholders | During major incidents | |
+| TPL-07 | Incident Report: Initial Notification | Per incident | Done |
+| TPL-08 | Incident Report: Final | Per incident | Done |
+| TPL-09 | Incident Timeline and Decision Log | Per incident | Done |
+| TPL-10 | Post-Incident Review | Per incident | Done |
+| TPL-11 | Situation Report (sitrep) for Stakeholders | During major incidents | Done |
 | TPL-12 | Evidence Chain of Custody Form | Per evidence item | |
 | TPL-13 | Forensic Acquisition Record | Per acquisition | |
 | TPL-14 | Malware Analysis Report | Per sample | |

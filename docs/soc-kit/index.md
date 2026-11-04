@@ -49,6 +49,11 @@ Coming soon.
 | TPL-04 | Monthly SOC Report | [Word (.docx)](../downloads/soc-kit/tpl/TPL-04-monthly-soc-report.docx) |
 | TPL-05 | Quarterly Executive Report | [Word (.docx)](../downloads/soc-kit/tpl/TPL-05-quarterly-executive-report.docx) |
 | TPL-06 | Annual SOC Report | [Word (.docx)](../downloads/soc-kit/tpl/TPL-06-annual-soc-report.docx) |
+| TPL-07 | Incident Report: Initial Notification | [Word (.docx)](../downloads/soc-kit/tpl/TPL-07-incident-report-initial-notification.docx) |
+| TPL-08 | Incident Report: Final | [Word (.docx)](../downloads/soc-kit/tpl/TPL-08-incident-report-final.docx) |
+| TPL-09 | Incident Timeline and Decision Log | [Word (.docx)](../downloads/soc-kit/tpl/TPL-09-incident-timeline-and-decision-log.docx) |
+| TPL-10 | Post-Incident Review | [Word (.docx)](../downloads/soc-kit/tpl/TPL-10-post-incident-review.docx) |
+| TPL-11 | Situation Report (sitrep) for Stakeholders | [Word (.docx)](../downloads/soc-kit/tpl/TPL-11-situation-report.docx) |
 
 ## Related pages
 

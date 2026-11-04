@@ -291,7 +291,10 @@ def parse(path):
     for line in m.group(1).split('\n'):
         if ':' in line:
             k, v = line.split(':', 1)
-            meta[k.strip()] = v.strip()
+            v = v.strip()
+            if len(v) > 1 and v[0] == v[-1] and v[0] in '"\'':    # quoted value, e.g. a title with a colon
+                v = v[1:-1]
+            meta[k.strip()] = v
     for k in ('id', 'title'):
         if k not in meta:
             sys.exit(f'{path}: front matter needs {k}')
@@ -386,7 +389,8 @@ def _table(doc, rows):
         w = [5.5, 11.5]
     elif cols >= 4:
         # first column usually holds the row label, give it more room
-        w0 = min(5.0, total * 0.3)
+        longest = max(len(r[0]) for r in rows if r)
+        w0 = 1.6 if longest <= 6 else min(5.0, total * 0.3)
         w = [w0] + [(total - w0) / (cols - 1)] * (cols - 1)
     else:
         w = [total / cols] * cols
