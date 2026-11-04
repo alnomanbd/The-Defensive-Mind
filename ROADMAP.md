@@ -20,6 +20,7 @@ Pages that show "This page is being written" are planned and come first:
 - [ ] SOC Document Kit: every SOP (50), playbook (40), governance document (10) and form or report (30) as editable Word files, see `soc-kit/CATALOGUE.md`
 - [ ] SOC Training module: 15 training modules (T01 to T15) with lessons, labs and quizzes, including endpoint security (EDR, XDR, UEBA and more), threat intelligence, threat hunting and DFIR
 - [ ] IBM QRadar (AQL) queries next to Splunk, Sentinel, Elastic and Wazuh on every page
+- [ ] Modern and AI-driven SOC: training modules T16 to T18, SOPs SOP-51 to SOP-64, playbooks PB-41 to PB-46, AI use policy GOV-11
 
 ## Next
 

@@ -20,6 +20,7 @@ Status: **Done** = published, **Next** = in the current batch, blank = planned.
 | GOV-08 | SOC Metrics and KPI Standard | |
 | GOV-09 | SOC Roadmap and Maturity Plan | |
 | GOV-10 | Privacy and Data Handling in Investigations | |
+| GOV-11 | AI Use in the SOC Policy (approved tools, data rules, human review) | |
 
 ## SOP: Standard Operating Procedures (how routine work is done)
 
@@ -75,6 +76,20 @@ Status: **Done** = published, **Next** = in the current batch, blank = planned.
 | SOP-48 | Knowledge Base Maintenance | People and knowledge | |
 | SOP-49 | SOC Business Continuity (SIEM or tooling down) | People and knowledge | |
 | SOP-50 | Quality Assurance and Case Review | People and knowledge | |
+| SOP-51 | AI-Assisted Triage and Human Review | Modern and AI SOC | |
+| SOP-52 | Building and Running an AI Triage Agent (LLM, SOAR, MCP tools) | Modern and AI SOC | |
+| SOP-53 | Detection as Code Pipeline (Git, CI tests, deployment) | Modern and AI SOC | |
+| SOP-54 | Risk-Based Alerting | Modern and AI SOC | |
+| SOP-55 | Identity Threat Detection and Response (ITDR) | Modern and AI SOC | |
+| SOP-56 | Cloud Detection and Response (CDR) and CNAPP Alerts | Modern and AI SOC | |
+| SOP-57 | SaaS Security Monitoring (SSPM, OAuth apps) | Modern and AI SOC | |
+| SOP-58 | Deception, Honeytokens and Canaries | Modern and AI SOC | |
+| SOP-59 | Breach and Attack Simulation (BAS) Programme | Modern and AI SOC | |
+| SOP-60 | Continuous Threat Exposure Management (CTEM) | Modern and AI SOC | |
+| SOP-61 | Security Data Pipeline and Log Cost Management (OCSF, data lake) | Modern and AI SOC | |
+| SOP-62 | Monitoring AI and LLM Applications | Modern and AI SOC | |
+| SOP-63 | OT and IoT Security Monitoring | Modern and AI SOC | |
+| SOP-64 | Working with an MDR or Co-Managed SOC Provider | Modern and AI SOC | |
 
 ## PB: Incident Response Playbooks (what to do when a specific attack happens)
 
@@ -120,6 +135,12 @@ Status: **Done** = published, **Next** = in the current batch, blank = planned.
 | PB-38 | Rogue Wi-Fi and Network Device | |
 | PB-39 | Third-Party and Vendor Breach | |
 | PB-40 | Website Defacement | |
+| PB-41 | Deepfake Voice or Video Fraud | |
+| PB-42 | OAuth Consent Phishing and Token Theft | |
+| PB-43 | SaaS Application Compromise | |
+| PB-44 | AI Agent or Automation Compromise | |
+| PB-45 | Honeytoken or Canary Triggered | |
+| PB-46 | Session Hijacking and Adversary-in-the-Middle Phishing | |
 
 ## TPL: Forms, Reports and Records (what the SOC fills in)
 
@@ -176,4 +197,7 @@ SOC Training is its own part of the website, apart from the handbook and this ki
 | T12 Malware Analysis Basics | Safe lab, static and dynamic triage, sandboxes, YARA rules from samples, YARA sweeps with Velociraptor and osquery |
 | T13 SOAR and Automation | What to automate, enrichment, case creation, approvals, n8n and Shuffle examples |
 | T14 SOC Management | KPIs, staffing and shifts, reporting to management, maturity, budget |
+| T16 Modern SOC Architecture | XDR, cloud-native SIEM, security data lakes and pipelines (OCSF, Amazon Security Lake, Cribl), detection as code, risk-based alerting, ITDR, CDR and CNAPP, SaaS security, deception, BAS, CTEM, zero trust telemetry, OT and IoT, MDR and co-managed models |
+| T17 AI-Driven SOC | Where AI helps and where it fails, LLM copilots, AI triage agents, natural language to query, ML anomaly detection, agentic workflows with human approval, building an AI triage agent with n8n, an LLM and MCP tools, measuring AI accuracy, guardrails and data privacy |
+| T18 Securing AI Systems | Threats to AI (prompt injection, data poisoning, model theft), OWASP Top 10 for LLM Applications, MITRE ATLAS, logging and monitoring LLM apps, AI-powered attacks (deepfakes, AI phishing) and how to detect them |
 | T15 Career and Interviews | L1 to L3 skill paths, certifications, interview question bank with model answers |

@@ -1,6 +1,6 @@
 # SOC Training
 
-A step-by-step training track for SOC analysts, from the first day on shift to L3 work. It is separate from the handbook: the handbook tells you how to run the SOC, the training teaches you the skills behind it.
+A step-by-step training track for SOC analysts, from the first day on shift to L3 work, including the modern and AI-driven SOC. It is separate from the handbook: the handbook tells you how to run the SOC, the training teaches you the skills behind it.
 
 !!! abstract "At a glance"
     - Audience: new and working SOC analysts (L1 to L3), and anyone moving into a SOC
@@ -37,6 +37,9 @@ All modules are being written. They will appear in the menu one by one; see the 
 | T12 Malware Analysis Basics | A safe lab, static and dynamic triage, sandboxes, writing YARA rules from samples | L2 to L3 |
 | T13 SOAR and Automation | What to automate, enrichment, case creation, approval steps, n8n and Shuffle examples | L2 to L3 |
 | T14 SOC Management | KPIs, staffing and shifts, reporting to management, maturity, budget | Lead and manager |
+| T16 Modern SOC Architecture | XDR, cloud-native SIEM, security data lakes and pipelines (OCSF), detection as code, risk-based alerting, identity and cloud detection and response, SaaS security, deception, breach and attack simulation, continuous threat exposure management, OT and IoT, MDR models | L2 to lead |
+| T17 AI-Driven SOC | Where AI helps and where it fails, LLM copilots, AI triage agents, natural language to query, machine learning anomaly detection, agentic workflows with human approval, building an AI triage agent with n8n, an LLM and MCP tools, measuring AI accuracy, guardrails and privacy | L2 to lead |
+| T18 Securing AI Systems | Prompt injection, data poisoning, model theft, OWASP Top 10 for LLM Applications, MITRE ATLAS, monitoring LLM applications, detecting AI-powered attacks such as deepfakes and AI phishing | L2 to L3 |
 | T15 Career and Interviews | Skill paths from L1 to L3, certifications, an interview question bank with model answers | All |
 
 ## Suggested order
@@ -44,7 +47,8 @@ All modules are being written. They will appear in the menu one by one; see the 
 - [ ] New to SOC: T01, T02, T03, then T04 and T10
 - [ ] Moving to L2: T05, T06, T07, T09, T12
 - [ ] Moving to L3: T08, T11, T13
-- [ ] Leading a team: T14
+- [ ] Leading a team: T14, T16, T17
+- [ ] Future-proofing your skills: T16, T17, T18
 - [ ] Before any interview: T15
 
 ## Related pages
