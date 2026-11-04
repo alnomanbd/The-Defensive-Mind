@@ -382,9 +382,12 @@ def _table(doc, rows):
         if ri == 0:
             repeat_header(t.rows[0])
     total = 17.0
-    first = [len(r[0]) for r in rows if r]
     if cols == 2:
         w = [5.5, 11.5]
+    elif cols >= 4:
+        # first column usually holds the row label, give it more room
+        w0 = min(5.0, total * 0.3)
+        w = [w0] + [(total - w0) / (cols - 1)] * (cols - 1)
     else:
         w = [total / cols] * cols
     _widths(t, w)

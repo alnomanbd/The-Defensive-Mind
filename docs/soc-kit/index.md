@@ -45,6 +45,10 @@ Coming soon.
 |---|---|---|
 | TPL-01 | Daily Shift Report | [Word (.docx)](../downloads/soc-kit/tpl/TPL-01-daily-shift-report.docx) |
 | TPL-02 | Shift Handover | [Word (.docx)](../downloads/soc-kit/tpl/TPL-02-shift-handover.docx) |
+| TPL-03 | Weekly SOC Report | [Word (.docx)](../downloads/soc-kit/tpl/TPL-03-weekly-soc-report.docx) |
+| TPL-04 | Monthly SOC Report | [Word (.docx)](../downloads/soc-kit/tpl/TPL-04-monthly-soc-report.docx) |
+| TPL-05 | Quarterly Executive Report | [Word (.docx)](../downloads/soc-kit/tpl/TPL-05-quarterly-executive-report.docx) |
+| TPL-06 | Annual SOC Report | [Word (.docx)](../downloads/soc-kit/tpl/TPL-06-annual-soc-report.docx) |
 
 ## Related pages
 

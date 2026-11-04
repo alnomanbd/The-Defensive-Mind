@@ -127,10 +127,10 @@ Status: **Done** = published, **Next** = in the current batch, blank = planned.
 |---|---|---|---|
 | TPL-01 | Daily Shift Report | Every shift | Done |
 | TPL-02 | Shift Handover | Every shift change | Done |
-| TPL-03 | Weekly SOC Report | Weekly | |
-| TPL-04 | Monthly SOC Report | Monthly | |
-| TPL-05 | Quarterly Executive Report | Quarterly | |
-| TPL-06 | Annual SOC Report | Yearly | |
+| TPL-03 | Weekly SOC Report | Weekly | Done |
+| TPL-04 | Monthly SOC Report | Monthly | Done |
+| TPL-05 | Quarterly Executive Report | Quarterly | Done |
+| TPL-06 | Annual SOC Report | Yearly | Done |
 | TPL-07 | Incident Report: Initial Notification | Per incident | |
 | TPL-08 | Incident Report: Final | Per incident | |
 | TPL-09 | Incident Timeline and Decision Log | Per incident | |
