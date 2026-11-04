@@ -26,15 +26,15 @@ Status: **Done** = published, **Next** = in the current batch, blank = planned.
 | ID | Document | Area | Status |
 |---|---|---|---|
 | SOP-01 | Shift Start and Platform Health Check | Daily operations | Done |
-| SOP-02 | Alert Queue Monitoring | Daily operations | |
+| SOP-02 | Alert Queue Monitoring | Daily operations | Done |
 | SOP-03 | Alert Triage and Classification (TP, FP, BTP) | Daily operations | Done |
-| SOP-04 | Alert Enrichment (IP, domain, hash, user, host) | Daily operations | |
-| SOP-05 | Severity Assignment and Escalation | Daily operations | |
+| SOP-04 | Alert Enrichment (IP, domain, hash, user, host) | Daily operations | Done |
+| SOP-05 | Severity Assignment and Escalation | Daily operations | Done |
 | SOP-06 | Shift Handover | Daily operations | Done |
-| SOP-07 | On-Call and After-Hours Response | Daily operations | |
-| SOP-08 | Case Management (open, merge, close) | Daily operations | |
-| SOP-09 | Daily, Weekly and Monthly Reporting | Daily operations | |
-| SOP-10 | False Positive Handling and Tuning Requests | Daily operations | |
+| SOP-07 | On-Call and After-Hours Response | Daily operations | Done |
+| SOP-08 | Case Management (open, merge, close) | Daily operations | Done |
+| SOP-09 | Daily, Weekly and Monthly Reporting | Daily operations | Done |
+| SOP-10 | False Positive Handling and Tuning Requests | Daily operations | Done |
 | SOP-11 | Log Source Onboarding | Detection and platform | |
 | SOP-12 | Log Source Health and Silent Source Response | Detection and platform | |
 | SOP-13 | Detection Rule Lifecycle | Detection and platform | |
