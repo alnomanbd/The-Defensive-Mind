@@ -2,6 +2,10 @@
 
 All notable changes to The Defensive Mind. Newest first.
 
+## [1.1.0], 2026-11-05
+
+- SOC Document Kit: all 11 governance documents (GOV-01 to GOV-11) added as Word files: charter, operating model, severity and SLA standard, escalation and contact matrix, RACI, incident response policy, log retention, metrics standard, roadmap and maturity, privacy in investigations, and AI use policy (44 kit documents in total)
+
 ## [1.0.0], 2026-11-05
 
 - SOC Training track complete: all 18 modules (T01 to T18) published, from SOC foundations to securing AI systems, each with objectives, lessons, labs, query drills and a self-check

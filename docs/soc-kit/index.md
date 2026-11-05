@@ -18,7 +18,19 @@ The full list of planned documents is in the [catalogue](https://github.com/alno
 
 ## Governance
 
-Coming soon.
+| ID | Document | Download |
+|---|---|---|
+| GOV-01 | SOC Charter | [Word (.docx)](../downloads/soc-kit/gov/GOV-01-soc-charter.docx) |
+| GOV-02 | Operating Model and Service Catalogue | [Word (.docx)](../downloads/soc-kit/gov/GOV-02-operating-model-and-service-catalogue.docx) |
+| GOV-03 | Severity, Priority and SLA Standard | [Word (.docx)](../downloads/soc-kit/gov/GOV-03-severity-priority-and-sla-standard.docx) |
+| GOV-04 | Escalation and Contact Matrix | [Word (.docx)](../downloads/soc-kit/gov/GOV-04-escalation-and-contact-matrix.docx) |
+| GOV-05 | SOC RACI | [Word (.docx)](../downloads/soc-kit/gov/GOV-05-soc-raci.docx) |
+| GOV-06 | Incident Response Policy | [Word (.docx)](../downloads/soc-kit/gov/GOV-06-incident-response-policy.docx) |
+| GOV-07 | Log Management and Retention Policy | [Word (.docx)](../downloads/soc-kit/gov/GOV-07-log-management-and-retention-policy.docx) |
+| GOV-08 | SOC Metrics and KPI Standard | [Word (.docx)](../downloads/soc-kit/gov/GOV-08-soc-metrics-and-kpi-standard.docx) |
+| GOV-09 | SOC Roadmap and Maturity Plan | [Word (.docx)](../downloads/soc-kit/gov/GOV-09-soc-roadmap-and-maturity-plan.docx) |
+| GOV-10 | Privacy and Data Handling in Investigations | [Word (.docx)](../downloads/soc-kit/gov/GOV-10-privacy-and-data-handling-in-investigations.docx) |
+| GOV-11 | AI Use in the SOC Policy | [Word (.docx)](../downloads/soc-kit/gov/GOV-11-ai-use-in-the-soc-policy.docx) |
 
 ## Standard Operating Procedures
 

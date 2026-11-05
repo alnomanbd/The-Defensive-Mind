@@ -10,17 +10,17 @@ Status: **Done** = published, **Next** = in the current batch, blank = planned.
 
 | ID | Document | Status |
 |---|---|---|
-| GOV-01 | SOC Charter | |
-| GOV-02 | Operating Model and Service Catalogue | |
-| GOV-03 | Severity, Priority and SLA Standard | |
-| GOV-04 | Escalation and Contact Matrix | |
-| GOV-05 | SOC RACI | |
-| GOV-06 | Incident Response Policy | |
-| GOV-07 | Log Management and Retention Policy | |
-| GOV-08 | SOC Metrics and KPI Standard | |
-| GOV-09 | SOC Roadmap and Maturity Plan | |
-| GOV-10 | Privacy and Data Handling in Investigations | |
-| GOV-11 | AI Use in the SOC Policy (approved tools, data rules, human review) | |
+| GOV-01 | SOC Charter | Done |
+| GOV-02 | Operating Model and Service Catalogue | Done |
+| GOV-03 | Severity, Priority and SLA Standard | Done |
+| GOV-04 | Escalation and Contact Matrix | Done |
+| GOV-05 | SOC RACI | Done |
+| GOV-06 | Incident Response Policy | Done |
+| GOV-07 | Log Management and Retention Policy | Done |
+| GOV-08 | SOC Metrics and KPI Standard | Done |
+| GOV-09 | SOC Roadmap and Maturity Plan | Done |
+| GOV-10 | Privacy and Data Handling in Investigations | Done |
+| GOV-11 | AI Use in the SOC Policy (approved tools, data rules, human review) | Done |
 
 ## SOP: Standard Operating Procedures (how routine work is done)
 
