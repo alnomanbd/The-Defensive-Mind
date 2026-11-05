@@ -100,16 +100,16 @@ nav:
           # TODO - Web secret-file probing: field-guide/walkthroughs/case-04-web-secret-file-probing.md
           # TODO - Mailbox forwarding (BEC): field-guide/walkthroughs/case-05-suspicious-mailbox-forwarding-bec.md
           # TODO - Cloud key leak and cryptomining: field-guide/walkthroughs/case-06-cloud-key-leak-cryptomining.md
-  # TODO - Build a SOC:
-      # TODO - 01-build-a-soc/index.md
-      # TODO - Roadmap: 01-build-a-soc/roadmap.md
-      # TODO - Operating model: 01-build-a-soc/operating-model.md
-      # TODO - Team and roles: 01-build-a-soc/team-and-roles.md
-      # TODO - Technology stack: 01-build-a-soc/technology-stack.md
-      # TODO - Log source priorities: 01-build-a-soc/log-source-priorities.md
-      # TODO - Use case prioritization: 01-build-a-soc/use-case-prioritization.md
-      # TODO - Maturity model: 01-build-a-soc/maturity-model.md
-      # TODO - Budget and staffing: 01-build-a-soc/budget-and-staffing.md
+  - Build a SOC:
+      - 01-build-a-soc/index.md
+      - Roadmap: 01-build-a-soc/roadmap.md
+      - Operating model: 01-build-a-soc/operating-model.md
+      - Team and roles: 01-build-a-soc/team-and-roles.md
+      - Technology stack: 01-build-a-soc/technology-stack.md
+      - Log source priorities: 01-build-a-soc/log-source-priorities.md
+      - Use case prioritization: 01-build-a-soc/use-case-prioritization.md
+      - Maturity model: 01-build-a-soc/maturity-model.md
+      - Budget and staffing: 01-build-a-soc/budget-and-staffing.md
   - Daily Operations:
       - 02-daily-operations/index.md
       - Daily routine: 02-daily-operations/daily-routine.md

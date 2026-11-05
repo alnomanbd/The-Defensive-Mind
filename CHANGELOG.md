@@ -2,6 +2,10 @@
 
 All notable changes to The Defensive Mind. Newest first.
 
+## [0.4.0], 2026-11-05
+
+- Build a SOC section complete: index, roadmap, operating model, team and roles, technology stack, log source priorities, use case prioritization, maturity model, budget and staffing (9 pages)
+
 ## [0.3.0], 2026-11-05
 
 - Playbooks section: eight new playbooks (BEC, malware and infostealer, ransomware, web application attack, data exfiltration, insider threat, DDoS, cloud account compromise), each with queries for Splunk, Sentinel, Elastic, QRadar and Wazuh plus osquery and YARA where useful
