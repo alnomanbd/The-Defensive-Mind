@@ -37,14 +37,19 @@ Every internet-facing login receives guessing traffic all day. Most of it is noi
 
 - [ ] Which service: SSH, RDP, VPN, SSO, webmail, a customer-facing app?
 - [ ] Is the source internal or external? Internal source attacking many accounts = a compromised host, escalate.
-- [ ] Is the source one of ours (scanner, monitoring, jump host)? Yes -> tune and close.
+- [ ] Is the source one of ours (scanner, monitoring, jump host)? If yes, tune and close.
 - [ ] How many accounts targeted, how many failures each? (Spraying vs. guessing.)
 - [ ] Do the targeted usernames exist? Valid names suggest the attacker did reconnaissance or has a leak.
 - [ ] **Was there any successful login** from the same source IP, ASN or user agent? This is the key question.
 - [ ] Is the source already on a threat intel block list? Is it a TOR exit or hosting provider?
 - [ ] Is the service supposed to be exposed to the internet at all?
 
-Decision: failures only, external, automated noise -> Low, confirm auto-block worked, close, targeted spraying with valid usernames -> Medium, block and monitor, any success after failures -> High, treat as [Account Compromise](account-compromise.md), internal source -> High, investigate the host.
+Decision:
+
+- Failures only, external, automated noise: Low. Confirm auto-block worked and close.
+- Targeted spraying with valid usernames: Medium. Block and monitor.
+- Any success after failures: High. Treat as [Account Compromise](account-compromise.md).
+- Internal source: High. Investigate the host.
 
 ## 4. Investigation
 
@@ -127,6 +132,10 @@ For the [Post-Incident Review](../03-incident-response/post-incident-review.md):
 - Are there accounts with weak or never-changed passwords (service accounts)?
 
 Detections to add or tune: spraying (many users per source), success-after-failure correlation, failures on disabled or non-existent accounts, auth from internal hosts to many servers.
+
+## Downloads
+
+- [PB-04 Brute Force and Password Spraying (Word)](../downloads/soc-kit/pb/PB-04-brute-force.docx)
 
 ## Related pages
 

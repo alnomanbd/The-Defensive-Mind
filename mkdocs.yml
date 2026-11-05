@@ -132,17 +132,17 @@ nav:
       - 04-playbooks/index.md
       - Template: 04-playbooks/playbook-template.md
       - PB-01 Phishing: 04-playbooks/phishing.md
-      - PB-02 Account compromise: 04-playbooks/account-compromise.md
-      - PB-03 Credential leak (dark web): 04-playbooks/credential-leak-dark-web.md
+      - PB-02 Business email compromise: 04-playbooks/business-email-compromise.md
+      - PB-03 Account compromise: 04-playbooks/account-compromise.md
       - PB-04 Brute force: 04-playbooks/brute-force.md
-      # TODO - PB-05 Web application attack: 04-playbooks/web-application-attack.md
-      # TODO - PB-06 Malware / infostealer: 04-playbooks/malware-infostealer.md
-      # TODO - PB-07 Ransomware: 04-playbooks/ransomware.md
-      # TODO - PB-08 Data exfiltration: 04-playbooks/data-exfiltration.md
-      # TODO - PB-09 Insider threat: 04-playbooks/insider-threat.md
-      # TODO - PB-10 DDoS: 04-playbooks/ddos.md
-      # TODO - PB-11 Business email compromise: 04-playbooks/business-email-compromise.md
-      # TODO - PB-12 Cloud account compromise: 04-playbooks/cloud-account-compromise.md
+      - PB-05 Credential leak (dark web): 04-playbooks/credential-leak-dark-web.md
+      - PB-08 Malware and infostealer: 04-playbooks/malware-infostealer.md
+      - PB-09 Ransomware: 04-playbooks/ransomware.md
+      - PB-11 Web application attack: 04-playbooks/web-application-attack.md
+      - PB-13 Data exfiltration: 04-playbooks/data-exfiltration.md
+      - PB-14 Insider threat: 04-playbooks/insider-threat.md
+      - PB-15 DDoS: 04-playbooks/ddos.md
+      - PB-16 Cloud account compromise: 04-playbooks/cloud-account-compromise.md
   - Detection Engineering:
       - 05-detection-engineering/index.md
       - Detection lifecycle: 05-detection-engineering/detection-lifecycle.md

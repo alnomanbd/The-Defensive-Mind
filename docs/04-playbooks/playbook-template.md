@@ -36,7 +36,7 @@ Two to four sentences: what the attack is, why it matters, what success looks li
 - [ ] Step with a clear yes/no outcome
 - [ ] ...
 
-Decision: true positive -> continue, false positive -> close with reason, unsure -> escalate.
+Decision: true positive, continue; false positive, close with reason; unsure, escalate.
 
 ## 4. Investigation
 

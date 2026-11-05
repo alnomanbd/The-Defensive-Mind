@@ -9,7 +9,7 @@ Hands-on steps for suspicious sign-ins, impossible travel, Multi-Factor Authenti
 
 | Field | Value |
 |:---|:---|
-| **ID** | PB-02 |
+| **ID** | PB-03 |
 | **Default severity** | High (see [Severity and SLA](../02-daily-operations/severity-and-sla.md)) |
 | **Escalate to Critical when** | Privileged account (identity / cloud / domain admin), finance or executive user, or attacker persistence found (new MFA device, OAuth app, admin role) |
 | **MITRE ATT&CK** | T1078.004 Valid Accounts: Cloud Accounts, T1621 Multi-Factor Authentication Request Generation, T1539 Steal Web Session Cookie, T1550.004 Web Session Cookie, T1528 Steal Application Access Token, T1557 Adversary-in-the-Middle, T1098.005 Device Registration, T1556.006 Modify Authentication Process: MFA |
@@ -38,14 +38,18 @@ An attacker signs in as a real user with a stolen password, cookie or an approve
 | **Manager** | Approve disabling executives / admins, inform CISO and data owners, start privacy / legal clock if personal data was accessed |
 
 - [ ] Account type: user, admin, service account, shared mailbox?
-- [ ] Source IP in corporate egress / known VPN / partner list? Yes -> likely benign.
+- [ ] Source IP in corporate egress / known VPN / partner list? If yes, likely benign.
 - [ ] Is the IP / country / device / user agent new for this user (7-30 days)?
 - [ ] How was MFA satisfied: push approved, "previously satisfied" token claim, not required?
 - [ ] MFA denials in the last hour ≥ 3 followed by an approval?
 - [ ] Any changes after sign-in: MFA methods, inbox rules, OAuth apps, roles?
 - [ ] Call / chat the user: "Did you sign in from Country X at 10:42 UTC?"
 
-Decision: user confirms and nothing else odd -> close benign, user denies or unreachable with strong indicators -> contain now, admin / finance account and unsure -> contain anyway.
+Decision:
+
+- User confirms and nothing else is odd: close as benign.
+- User denies, or cannot be reached and indicators are strong: contain now.
+- Admin or finance account and still unsure: contain anyway.
 
 !!! warning "Contain before you finish investigating"
     For privileged accounts, revoke sessions as soon as compromise is likely. Investigation continues from logs.
@@ -55,12 +59,12 @@ Decision: user confirms and nothing else odd -> close benign, user denies or unr
 | Question | Where to look |
 |:---|:---|
 | When did it start? | IdP sign-ins: first event from attacker IP / ASN / device; search back 30 days |
-| How did they get in? | Phishing click ([PB-01](phishing.md)), infostealer ([PB-06](malware-infostealer.md)), leak ([PB-03](credential-leak-dark-web.md)), spraying ([PB-04](brute-force.md)) |
+| How did they get in? | Phishing click ([PB-01](phishing.md)), infostealer ([PB-08](malware-infostealer.md)), leak ([PB-05](credential-leak-dark-web.md)), spraying ([PB-04](brute-force.md)) |
 | Other accounts from the same IP? | IdP logs filtered by attacker IP across all users |
 | What did they access? | Mailbox audit (MailItemsAccessed, Send), file / SaaS access logs |
 | What persistence? | IdP audit: security info registered, device registered, consent granted, role added |
 | Email sent as the user? | Mail trace for the attacker window: see [BEC](business-email-compromise.md) |
-| Cloud console / API used? | Cloud audit logs: see [PB-12](cloud-account-compromise.md) |
+| Cloud console / API used? | Cloud audit logs: see [PB-16](cloud-account-compromise.md) |
 
 ### Hunting queries
 
@@ -176,7 +180,7 @@ kcadm.sh create users/$USER_ID/logout -r acme
 | Who | When | By whom |
 |:---|:---|:---|
 | User and their manager | At containment, out of band | L2 / Identity |
-| SOC manager / CISO | High immediately; Critical within 15 min | L2 -> Manager |
+| SOC manager / CISO | High immediately; Critical within 15 min | L2 to manager |
 | Data owners | After scoping | Manager |
 | Legal / privacy officer | Personal data accessed (notification clock) | Manager |
 | Recipients of attacker email | If phishing was sent from the account | Manager + Communications |
@@ -195,6 +199,10 @@ Follow [Evidence Handling](../03-incident-response/evidence-handling.md).
 ## 9. Lessons learned
 
 For the [Post-Incident Review](../03-incident-response/post-incident-review.md): which control failed (MFA type, conditional access, device trust)? Dwell time? Did revocation reach every SaaS app? Detections to add: MFA method added after a risky sign-in, token use from a new ASN, inbox rule within 1 hour of a new-country sign-in.
+
+## Downloads
+
+- [PB-03 Account Compromise (Word)](../downloads/soc-kit/pb/PB-03-account-compromise.docx)
 
 ## Related pages
 

@@ -12,11 +12,19 @@ Step-by-step procedures for the incident types a SOC meets most often. Open the 
 | ID | Playbook | Open it when... | Default severity |
 |---|---|---|---|
 | PB-01 | [Phishing](phishing.md) | A user reports a suspicious email, or the mail gateway flags one that was delivered | Low to High |
-| PB-02 | [Account compromise](account-compromise.md) | A login, mailbox rule or token use looks like someone other than the owner | High |
-| PB-03 | [Credential leak (dark web)](credential-leak-dark-web.md) | Company credentials appear in a breach dump, paste, infostealer log or leak forum | Medium to High |
+| PB-02 | [Business email compromise](business-email-compromise.md) | A payment or bank detail change request, a hidden inbox rule, or an executive impersonated | High |
+| PB-03 | [Account compromise](account-compromise.md) | A login, mailbox rule or token use looks like someone other than the owner | High |
 | PB-04 | [Brute force](brute-force.md) | Repeated login failures, password spraying, or a success after failures | Low to Critical |
+| PB-05 | [Credential leak (dark web)](credential-leak-dark-web.md) | Company credentials appear in a breach dump, paste, infostealer log or leak forum | Medium to High |
+| PB-08 | [Malware and infostealer](malware-infostealer.md) | EDR or antivirus detects malware, or a process steals browser passwords and cookies | Medium to High |
+| PB-09 | [Ransomware](ransomware.md) | Files are being encrypted, a ransom note appears, or backups and shadow copies are deleted | Critical |
+| PB-11 | [Web application attack](web-application-attack.md) | SQL injection, XSS, path traversal, secret file probing, or a web shell | Low to Critical |
+| PB-13 | [Data exfiltration](data-exfiltration.md) | Unusual outbound volume, uploads to personal cloud, DLP match, DNS tunnelling | High |
+| PB-14 | [Insider threat](insider-threat.md) | An employee or contractor misuses legitimate access; HR or manager referral | High |
+| PB-15 | [DDoS](ddos.md) | A site, API or link is flooded and slow or down | Medium to Critical |
+| PB-16 | [Cloud account compromise](cloud-account-compromise.md) | A cloud key, console user or service principal is used by someone else | High to Critical |
 
-More playbooks (web attack, malware, ransomware, data exfiltration, insider threat, DDoS, BEC, cloud account compromise) are being written. See the [roadmap](https://github.com/alnomanbd/The-Defensive-Mind/blob/main/ROADMAP.md).
+IDs follow the full [SOC Document Kit](../soc-kit/index.md) catalogue of 46 playbooks, so gaps in the numbers are playbooks that exist in the plan and will be added. Every playbook here is also available as a Word document in the kit.
 
 ## How every playbook is laid out
 

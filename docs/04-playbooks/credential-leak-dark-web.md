@@ -9,7 +9,7 @@ What to do when company credentials turn up in infostealer logs, on dark-web mar
 
 | Field | Value |
 |:---|:---|
-| **ID** | PB-03 |
+| **ID** | PB-05 |
 | **Default severity** | Medium (see [Severity and SLA](../02-daily-operations/severity-and-sla.md)) |
 | **Escalate to Critical when** | The leak contains valid privileged credentials, live session cookies for corporate SSO, VPN / remote access credentials, or there is evidence the credentials were already used |
 | **MITRE ATT&CK** | T1589.001 Gather Victim Identity Information: Credentials, T1597.002 Search Closed Sources: Purchase Technical Data, T1555.003 Credentials from Web Browsers, T1539 Steal Web Session Cookie, T1552.001 Unsecured Credentials: Credentials In Files, T1078 Valid Accounts |
@@ -40,13 +40,18 @@ Stolen credentials are sold in bulk. The most dangerous source today is **infost
 - [ ] Record the source, the date it was posted, and the capture date inside the record (they differ).
 - [ ] Classify the source type using the table above.
 - [ ] Extract only what you need: usernames, affected URLs, machine names, IPs, capture date. Do not copy full personal data into tickets or chat.
-- [ ] Is the username a current, enabled account? Check the directory. Disabled -> note and lower priority.
+- [ ] Is the username a current, enabled account? Check the directory. If disabled, note it and lower the priority.
 - [ ] Which service does the credential belong to: corporate SSO, VPN, email, a SaaS app, a personal site?
 - [ ] Is the password still current? Compare the leak date with the last password change date. **Do not** test the password by logging in.
 - [ ] For infostealer logs: is the machine name / hardware ID a corporate asset or a personal device?
 - [ ] Any sign-ins with this account from unknown IPs since the capture date?
 
-Decision: current account + recent leak -> true positive, continue, password changed after the leak and no cookies -> reset anyway as hygiene, Low, former employee / unrelated -> close with reason, access-broker listing -> escalate to SOC lead immediately.
+Decision:
+
+- Current account and recent leak: true positive, continue.
+- Password changed after the leak and no cookies: reset anyway as hygiene, Low.
+- Former employee or unrelated: close with reason.
+- Access-broker listing: escalate to the SOC lead immediately.
 
 !!! danger "Handle leaked data carefully"
     Do not buy data from criminal markets, do not register on criminal forums with corporate identities, and do not download raw dumps onto corporate laptops. Work through your monitoring provider or an approved, isolated research environment. See [Dark Web and Credential Monitoring](../06-threat-intelligence/dark-web-and-credential-monitoring.md).
@@ -117,6 +122,10 @@ For the [Post-Incident Review](../03-incident-response/post-incident-review.md):
 - How long between capture date and our detection? Is our monitoring coverage enough?
 
 Controls to consider: device-bound sessions / token binding, conditional access requiring managed devices, enterprise password manager, user guidance in the [Employee Security Guide](../08-security-policies/employee-security-guide.md).
+
+## Downloads
+
+- [PB-05 Credential Leak / Dark Web Exposure (Word)](../downloads/soc-kit/pb/PB-05-credential-leak-dark-web.docx)
 
 ## Related pages
 

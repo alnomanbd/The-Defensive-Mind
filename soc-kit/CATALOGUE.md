@@ -95,22 +95,22 @@ Status: **Done** = published, **Next** = in the current batch, blank = planned.
 
 | ID | Playbook | Status |
 |---|---|---|
-| PB-01 | Phishing | |
-| PB-02 | Business Email Compromise (BEC) | |
-| PB-03 | Account Compromise | |
-| PB-04 | Brute Force and Password Spraying | |
-| PB-05 | Credential Leak and Dark Web Exposure | |
+| PB-01 | Phishing | Done |
+| PB-02 | Business Email Compromise (BEC) | Done |
+| PB-03 | Account Compromise | Done |
+| PB-04 | Brute Force and Password Spraying | Done |
+| PB-05 | Credential Leak and Dark Web Exposure | Done |
 | PB-06 | MFA Fatigue and MFA Bypass | |
 | PB-07 | Impossible Travel and Suspicious Sign-in | |
-| PB-08 | Malware and Infostealer | |
-| PB-09 | Ransomware | |
+| PB-08 | Malware and Infostealer | Done |
+| PB-09 | Ransomware | Done |
 | PB-10 | Web Shell | |
-| PB-11 | Web Application Attack (SQL injection, XSS, path traversal) | |
+| PB-11 | Web Application Attack (SQL injection, XSS, path traversal) | Done |
 | PB-12 | Vulnerability Exploitation and Zero-Day | |
-| PB-13 | Data Exfiltration | |
-| PB-14 | Insider Threat | |
-| PB-15 | DDoS | |
-| PB-16 | Cloud Account Compromise | |
+| PB-13 | Data Exfiltration | Done |
+| PB-14 | Insider Threat | Done |
+| PB-15 | DDoS | Done |
+| PB-16 | Cloud Account Compromise | Done |
 | PB-17 | Cloud Storage Exposure | |
 | PB-18 | Cryptomining and Cryptojacking | |
 | PB-19 | Lateral Movement | |

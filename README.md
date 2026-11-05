@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://alnomanbd.github.io/The-Defensive-Mind/"><img alt="Read online" src="https://img.shields.io/badge/📖_Read_online-handbook-0b1d33?style=for-the-badge"></a>
-  <img alt="Playbooks" src="https://img.shields.io/badge/🛡️_Playbooks-4-c0392b?style=for-the-badge">
+  <img alt="Playbooks" src="https://img.shields.io/badge/🛡️_Playbooks-12-c0392b?style=for-the-badge">
   <img alt="Status" src="https://img.shields.io/badge/status-preview_v0.1-1f9e8a?style=for-the-badge">
   <img alt="Sigma rules" src="https://img.shields.io/badge/🎯_Sigma_rules-10-e67e22?style=for-the-badge">
 </p>
@@ -57,14 +57,14 @@ Most SOC material explains *what* a SOC is. Very little shows **what an analyst 
 | [01, Build a SOC](docs/01-build-a-soc/index.md) | 12-month roadmap, operating model, team sizing, stack, log sources, use cases, maturity *(coming soon)* |
 | [02, Daily Operations](docs/02-daily-operations/index.md) | Routines, triage, severity and SLA, handover, case management, tuning, KPIs, hunting with osquery and YARA |
 | [03, Incident Response](docs/03-incident-response/index.md) | Lifecycle, classification, escalation and legal clocks, evidence and chain of custody, post-incident review, tabletop and purple team exercises |
-| [04, Playbooks](docs/04-playbooks/index.md) | Phishing, account compromise, dark-web credential leak, brute force; web attack, infostealer, ransomware, exfiltration, insider, DDoS, BEC, cloud *(coming soon)* |
+| [04, Playbooks](docs/04-playbooks/index.md) | Phishing, BEC, account compromise, brute force, dark-web credential leak, malware and infostealer, ransomware, web attack, data exfiltration, insider threat, DDoS, cloud account compromise |
 | [05, Detection Engineering](docs/05-detection-engineering/index.md) | Lifecycle, writing detections, Sigma primer, rule library; testing, ATT&CK coverage *(coming soon)* |
 | [06, Threat Intelligence](docs/06-threat-intelligence/index.md) | TI lifecycle, dark-web and credential monitoring, external attack surface; IOC management *(coming soon)* |
 | [07, Automation (SOAR)](docs/07-automation-soar/index.md) | What to automate, recipe catalogue, alert fatigue control, case deduplication *(coming soon)* |
 | [08, Security Policies](docs/08-security-policies/index.md) | Policy framework, password and MFA, acceptable use, access control, reporting, employee guide *(coming soon)* |
 | [09, Templates](docs/09-templates/index.md) | Incident report, post-incident review, shift handover, monthly report, requests, risk acceptance |
 | [10, Labs and Tools](docs/10-labs-and-tools/index.md) | Open-source SOC lab, tool selection, curated resources *(coming soon)* |
-| [SOC Document Kit](docs/soc-kit/index.md) | Editable Word SOPs, playbooks, governance documents, forms and reports; 21 published, 152 planned |
+| [SOC Document Kit](docs/soc-kit/index.md) | Editable Word SOPs, playbooks, governance documents, forms and reports; 33 published, 152 planned |
 | [SOC Training](docs/training/index.md) | Separate training track T01 to T15: SIEM incl. QRadar, endpoint security (EDR, XDR, UEBA), threat intel, hunting, DFIR and more *(coming soon)* |
 
 ## Read it as a website

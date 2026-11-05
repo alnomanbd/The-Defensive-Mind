@@ -37,7 +37,20 @@ Coming soon.
 
 ## Incident Response Playbooks
 
-Coming soon.
+| ID | Document | Download |
+|---|---|---|
+| PB-01 | Phishing | [Word (.docx)](../downloads/soc-kit/pb/PB-01-phishing.docx) |
+| PB-02 | Business Email Compromise | [Word (.docx)](../downloads/soc-kit/pb/PB-02-business-email-compromise.docx) |
+| PB-03 | Account Compromise | [Word (.docx)](../downloads/soc-kit/pb/PB-03-account-compromise.docx) |
+| PB-04 | Brute Force and Password Spraying | [Word (.docx)](../downloads/soc-kit/pb/PB-04-brute-force.docx) |
+| PB-05 | Credential Leak / Dark Web Exposure | [Word (.docx)](../downloads/soc-kit/pb/PB-05-credential-leak-dark-web.docx) |
+| PB-08 | Malware and Infostealer | [Word (.docx)](../downloads/soc-kit/pb/PB-08-malware-infostealer.docx) |
+| PB-09 | Ransomware | [Word (.docx)](../downloads/soc-kit/pb/PB-09-ransomware.docx) |
+| PB-11 | Web Application Attack | [Word (.docx)](../downloads/soc-kit/pb/PB-11-web-application-attack.docx) |
+| PB-13 | Data Exfiltration | [Word (.docx)](../downloads/soc-kit/pb/PB-13-data-exfiltration.docx) |
+| PB-14 | Insider Threat | [Word (.docx)](../downloads/soc-kit/pb/PB-14-insider-threat.docx) |
+| PB-15 | DDoS | [Word (.docx)](../downloads/soc-kit/pb/PB-15-ddos.docx) |
+| PB-16 | Cloud Account Compromise | [Word (.docx)](../downloads/soc-kit/pb/PB-16-cloud-account-compromise.docx) |
 
 ## Forms, Reports and Records
 

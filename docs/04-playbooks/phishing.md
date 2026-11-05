@@ -36,7 +36,7 @@ A malicious email tries to steal credentials or run code. Find every recipient, 
 | **Manager** | Approve all-staff warning, inform CISO / finance, watch the SLA, decide on legal involvement |
 
 - [ ] Ask for the message **as an attachment** (`.eml` / `.msg`); forwards lose headers.
-- [ ] Simulation? Yes -> thank reporter, close "simulation".
+- [ ] Simulation? If yes, thank the reporter and close as "simulation".
 - [ ] Headers: `Return-Path`, `From`, `Reply-To`, `Authentication-Results`, first external `Received` hop.
 - [ ] Extract sender, sending IP, subject, URLs, attachment names and SHA-256.
 - [ ] Reputation check in a sandbox / TI source (e.g. CAPE, urlscan.io, VirusTotal). Never open links on your workstation.
@@ -47,7 +47,13 @@ grep -iE '^(from|reply-to|return-path|authentication-results|received|subject):'
 sha256sum invoice_2026.zip
 ```
 
-Decision: malicious, no interaction -> Medium, purge + block, click or credential entry -> High, run [Account Compromise](account-compromise.md), attachment executed -> High/Critical, run [Malware / Infostealer](malware-infostealer.md), benign -> close with reason, unsure -> L2.
+Decision:
+
+- Malicious, no interaction: Medium. Purge and block.
+- Click or credential entry: High. Run [Account Compromise](account-compromise.md).
+- Attachment executed: High or Critical. Run [Malware and Infostealer](malware-infostealer.md).
+- Benign: close with reason.
+- Unsure: hand to L2.
 
 ## 4. Investigation
 
@@ -119,7 +125,7 @@ Proxy log 12 minutes later:
 2026-10-27T09:14:31Z user=jdoe src=10.20.4.17 POST https://login-examp1e.com/sso/submit 302
 ```
 
-Reading: look-alike domain, DMARC fail, `Reply-To` to free mail, and a `POST` = jdoe typed a password. Severity -> High; reset + revoke jdoe now, purge 46 copies, check IdP for sign-ins from new IPs after 09:14.
+Reading: look-alike domain, DMARC fail, `Reply-To` to free mail, and a `POST` = jdoe typed a password. Severity: High; reset + revoke jdoe now, purge 46 copies, check IdP for sign-ins from new IPs after 09:14.
 
 ## 5. Containment
 
@@ -129,7 +135,7 @@ Reading: look-alike domain, DMARC fail, `Reply-To` to free mail, and a `POST` = 
 | Block sender, domain, sending IP on SEG | L1/L2 | Never block a whole public webmail domain |
 | Block URL / domain on proxy, DNS, click protection | L2 / Network | Check it is not a shared legitimate host |
 | Block attachment hash on EDR and SEG | L2 | Low risk |
-| Reset password + revoke sessions for credential submitters | Identity team | See [PB-02](account-compromise.md) |
+| Reset password + revoke sessions for credential submitters | Identity team | See [PB-03](account-compromise.md) |
 | Isolate endpoints that executed the payload | L2 / Desktop | Tell the user |
 | Remove malicious inbox rules / OAuth consents | Messaging / Identity | Export before deleting |
 
@@ -145,7 +151,7 @@ New-ComplianceSearchAction -SearchName "PB01-20261027" -Purge -PurgeType SoftDel
 New-TenantAllowBlockListItems -ListType Sender -Block -Entries "billing@examp1e.com"
 ```
 
-Google Workspace: Security investigation tool -> Gmail messages -> filter by sender -> "Delete messages". Open-source mail stacks: remove from mailboxes with the server's admin tool (e.g. `doveadm expunge -A mailbox INBOX header Subject "Invoice overdue"`).
+Google Workspace: Security investigation tool, then Gmail messages, filter by sender, then "Delete messages". Open-source mail stacks: remove from mailboxes with the server's admin tool (e.g. `doveadm expunge -A mailbox INBOX header Subject "Invoice overdue"`).
 
 ## 6. Eradication and recovery
 
@@ -179,6 +185,10 @@ Follow [Evidence Handling](../03-incident-response/evidence-handling.md).
 ## 9. Lessons learned
 
 For the [Post-Incident Review](../03-incident-response/post-incident-review.md): time from delivery to report and to purge; why the filter missed it; whether phishing-resistant MFA (FIDO2 / passkeys) would have stopped credential reuse. Add detections: retro-verdict alerting, clicks on newly registered domains, sign-in from a new IP shortly after a click.
+
+## Downloads
+
+- [PB-01 Phishing (Word)](../downloads/soc-kit/pb/PB-01-phishing.docx)
 
 ## Related pages
 

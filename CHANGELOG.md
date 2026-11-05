@@ -2,6 +2,12 @@
 
 All notable changes to The Defensive Mind. Newest first.
 
+## [0.3.0], 2026-11-05
+
+- Playbooks section: eight new playbooks (BEC, malware and infostealer, ransomware, web application attack, data exfiltration, insider threat, DDoS, cloud account compromise), each with queries for Splunk, Sentinel, Elastic, QRadar and Wazuh plus osquery and YARA where useful
+- Playbook IDs aligned with the kit catalogue (account compromise is now PB-03, credential leak PB-05)
+- SOC Document Kit: 12 playbooks as Word documents (33 documents in total), generated from the site pages by `soc-kit/from_site.py`
+
 ## [0.2.0], 2026-11-05
 
 - Daily operations section complete: shift handover, case management, alert tuning, metrics and KPIs, threat hunting (with osquery, YARA and Sigma)
