@@ -42,10 +42,10 @@ Most SOC material explains *what* a SOC is. Very little shows **what an analyst 
 
 | If you are... | Start with |
 |:---|:---|
-| 🟢 **New / L1 analyst** | [L1 analyst field guide](docs/field-guide/l1-analyst.md) -> [Alert triage](docs/02-daily-operations/alert-triage.md) -> [Investigation cheat sheet](docs/field-guide/investigation-cheatsheet.md) *(coming soon)* |
-| 🟡 **L2 / incident handler** | [L2 field guide](docs/field-guide/l2-analyst.md) -> [Playbooks](docs/04-playbooks/index.md) -> [Case walkthroughs](docs/field-guide/walkthroughs/index.md) *(coming soon)* |
-| 🔴 **L3 / hunter / detection engineer** *(coming soon)* | [L3 field guide](docs/field-guide/l3-analyst.md) -> [Detection engineering](docs/05-detection-engineering/index.md) -> [Threat hunting](docs/02-daily-operations/threat-hunting.md) |
-| 🧑‍💼 **SOC manager / lead** *(coming soon)* | [Manager field guide](docs/field-guide/soc-manager.md) -> [Metrics and KPIs](docs/02-daily-operations/metrics-and-kpis.md) -> [Monthly report template](docs/09-templates/monthly-soc-report.md) |
+| 🟢 **New / L1 analyst** | [L1 analyst field guide](docs/field-guide/l1-analyst.md) -> [Alert triage](docs/02-daily-operations/alert-triage.md) -> [Investigation cheat sheet](docs/field-guide/investigation-cheatsheet.md) |
+| 🟡 **L2 / incident handler** | [L2 field guide](docs/field-guide/l2-analyst.md) -> [Playbooks](docs/04-playbooks/index.md) -> [Case walkthroughs](docs/field-guide/walkthroughs/index.md) |
+| 🔴 **L3 / hunter / detection engineer** | [L3 field guide](docs/field-guide/l3-analyst.md) -> [Detection engineering](docs/05-detection-engineering/index.md) -> [Threat hunting](docs/02-daily-operations/threat-hunting.md) |
+| 🧑‍💼 **SOC manager / lead** | [Manager field guide](docs/field-guide/soc-manager.md) -> [Metrics and KPIs](docs/02-daily-operations/metrics-and-kpis.md) -> [Monthly report template](docs/09-templates/monthly-soc-report.md) |
 | 🏗️ **Building a SOC from zero** | [Roadmap](docs/01-build-a-soc/roadmap.md) -> [Technology stack](docs/01-build-a-soc/technology-stack.md) -> [Open-source SOC lab](docs/10-labs-and-tools/open-source-soc-lab.md) |
 
 ## What's inside
@@ -53,7 +53,7 @@ Most SOC material explains *what* a SOC is. Very little shows **what an analyst 
 | Section | What you get |
 |:---|:---|
 | [00, Start Here](docs/00-start-here/index.md) | What a SOC does, how to use this handbook, career paths, glossary |
-| [Field Guide](docs/field-guide/index.md) | L1 and L2 field guides; L3, manager, cheat sheet and 6 case walkthroughs *(coming soon)* |
+| [Field Guide](docs/field-guide/index.md) | L1, L2, L3 and manager field guides, investigation cheat sheet, 6 case walkthroughs |
 | [01, Build a SOC](docs/01-build-a-soc/index.md) | 12-month roadmap, operating model, team sizing, stack, log sources, use cases, maturity, budget |
 | [02, Daily Operations](docs/02-daily-operations/index.md) | Routines, triage, severity and SLA, handover, case management, tuning, KPIs, hunting with osquery and YARA |
 | [03, Incident Response](docs/03-incident-response/index.md) | Lifecycle, classification, escalation and legal clocks, evidence and chain of custody, post-incident review, tabletop and purple team exercises |

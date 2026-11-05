@@ -2,6 +2,10 @@
 
 All notable changes to The Defensive Mind. Newest first.
 
+## [0.8.0], 2026-11-05
+
+- Field Guide completed: L3 analyst, SOC manager, investigation cheat sheet, and six end-to-end case walkthroughs with quizzes (phishing, brute force, infostealer, web secret-file probing, BEC, cloud key leak)
+
 ## [0.7.0], 2026-11-05
 
 - Detection engineering completed: testing and tuning, coverage mapping (MITRE ATT&CK)

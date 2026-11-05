@@ -89,17 +89,17 @@ nav:
       - field-guide/index.md
       - L1 analyst: field-guide/l1-analyst.md
       - L2 analyst: field-guide/l2-analyst.md
-      # TODO - L3 analyst: field-guide/l3-analyst.md
-      # TODO - SOC manager: field-guide/soc-manager.md
-      # TODO - Investigation cheat sheet: field-guide/investigation-cheatsheet.md
-      # TODO - Walkthroughs:
-          # TODO - field-guide/walkthroughs/index.md
-          # TODO - Phishing to credential theft: field-guide/walkthroughs/case-01-phishing-to-credential-theft.md
-          # TODO - Brute force then success: field-guide/walkthroughs/case-02-brute-force-then-success.md
-          # TODO - Infostealer on a laptop: field-guide/walkthroughs/case-03-infostealer-on-laptop.md
-          # TODO - Web secret-file probing: field-guide/walkthroughs/case-04-web-secret-file-probing.md
-          # TODO - Mailbox forwarding (BEC): field-guide/walkthroughs/case-05-suspicious-mailbox-forwarding-bec.md
-          # TODO - Cloud key leak and cryptomining: field-guide/walkthroughs/case-06-cloud-key-leak-cryptomining.md
+      - L3 analyst: field-guide/l3-analyst.md
+      - SOC manager: field-guide/soc-manager.md
+      - Investigation cheat sheet: field-guide/investigation-cheatsheet.md
+      - Walkthroughs:
+          - field-guide/walkthroughs/index.md
+          - Phishing to credential theft: field-guide/walkthroughs/case-01-phishing-to-credential-theft.md
+          - Brute force then success: field-guide/walkthroughs/case-02-brute-force-then-success.md
+          - Infostealer on a laptop: field-guide/walkthroughs/case-03-infostealer-on-laptop.md
+          - Web secret-file probing: field-guide/walkthroughs/case-04-web-secret-file-probing.md
+          - Mailbox forwarding (BEC): field-guide/walkthroughs/case-05-suspicious-mailbox-forwarding-bec.md
+          - Cloud key leak and cryptomining: field-guide/walkthroughs/case-06-cloud-key-leak-cryptomining.md
   - Build a SOC:
       - 01-build-a-soc/index.md
       - Roadmap: 01-build-a-soc/roadmap.md
