@@ -2,6 +2,10 @@
 
 All notable changes to The Defensive Mind. Newest first.
 
+## [0.9.0], 2026-11-05
+
+- Labs and Tools completed: open-source SOC lab (phased build with safe attack practice), tool selection guide, useful resources
+
 ## [0.8.0], 2026-11-05
 
 - Field Guide completed: L3 analyst, SOC manager, investigation cheat sheet, and six end-to-end case walkthroughs with quizzes (phishing, brute force, infostealer, web secret-file probing, BEC, cloud key leak)

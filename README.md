@@ -63,7 +63,7 @@ Most SOC material explains *what* a SOC is. Very little shows **what an analyst 
 | [07, Automation (SOAR)](docs/07-automation-soar/index.md) | What to automate, recipe catalogue, alert fatigue control, case deduplication *(coming soon)* |
 | [08, Security Policies](docs/08-security-policies/index.md) | Policy framework, password and MFA, acceptable use, access control, reporting, employee guide |
 | [09, Templates](docs/09-templates/index.md) | Incident report, post-incident review, shift handover, monthly report, requests, risk acceptance |
-| [10, Labs and Tools](docs/10-labs-and-tools/index.md) | Open-source SOC lab, tool selection, curated resources *(coming soon)* |
+| [10, Labs and Tools](docs/10-labs-and-tools/index.md) | Open-source SOC lab, tool selection, curated resources |
 | [SOC Document Kit](docs/soc-kit/index.md) | Editable Word SOPs, playbooks, governance documents, forms and reports; 33 published, 152 planned |
 | [SOC Training](docs/training/index.md) | Separate training track T01 to T15: SIEM incl. QRadar, endpoint security (EDR, XDR, UEBA), threat intel, hunting, DFIR and more *(coming soon)* |
 

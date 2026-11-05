@@ -15,7 +15,7 @@ Pages that show "This page is being written" are planned and come first:
 - [x] Automation (SOAR): the full section
 - [x] Security policies: the full section
 - [x] Field guide: L3 analyst, SOC manager, investigation cheat sheet, six case walkthroughs
-- [ ] Labs and tools: open-source SOC lab, tool selection guide, useful resources
+- [x] Labs and tools: open-source SOC lab, tool selection guide, useful resources
 
 - [ ] SOC Document Kit: every SOP (50), playbook (40), governance document (10) and form or report (30) as editable Word files, see `soc-kit/CATALOGUE.md`
 - [ ] SOC Training module: 15 training modules (T01 to T15) with lessons, labs and quizzes, including endpoint security (EDR, XDR, UEBA and more), threat intelligence, threat hunting and DFIR

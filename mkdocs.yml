@@ -183,9 +183,9 @@ nav:
       - Change request: 09-templates/change-request.md
   - Labs and Tools:
       - 10-labs-and-tools/index.md
-      # TODO - Open-source SOC lab: 10-labs-and-tools/open-source-soc-lab.md
-      # TODO - Tool selection guide: 10-labs-and-tools/tool-selection-guide.md
-      # TODO - Useful resources: 10-labs-and-tools/useful-resources.md
+      - Open-source SOC lab: 10-labs-and-tools/open-source-soc-lab.md
+      - Tool selection guide: 10-labs-and-tools/tool-selection-guide.md
+      - Useful resources: 10-labs-and-tools/useful-resources.md
   - SOC Document Kit:
       - soc-kit/index.md
   - SOC Training:
