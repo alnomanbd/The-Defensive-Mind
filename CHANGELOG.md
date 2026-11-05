@@ -2,6 +2,10 @@
 
 All notable changes to The Defensive Mind. Newest first.
 
+## [0.5.0], 2026-11-05
+
+- Automation and SOAR section complete: index, SOAR principles, automation catalog, alert fatigue and notifications, case deduplication (5 pages)
+
 ## [0.4.0], 2026-11-05
 
 - Build a SOC section complete: index, roadmap, operating model, team and roles, technology stack, log source priorities, use case prioritization, maturity model, budget and staffing (9 pages)

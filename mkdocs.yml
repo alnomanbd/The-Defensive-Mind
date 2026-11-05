@@ -156,12 +156,12 @@ nav:
       - Dark web and credential monitoring: 06-threat-intelligence/dark-web-and-credential-monitoring.md
       - External attack surface: 06-threat-intelligence/external-attack-surface-management.md
       # TODO - IOC management: 06-threat-intelligence/ioc-management.md
-  # TODO - Automation (SOAR):
-      # TODO - 07-automation-soar/index.md
-      # TODO - SOAR principles: 07-automation-soar/soar-principles.md
-      # TODO - Automation catalog: 07-automation-soar/automation-catalog.md
-      # TODO - Alert fatigue and notifications: 07-automation-soar/alert-fatigue-and-notifications.md
-      # TODO - Case deduplication: 07-automation-soar/case-deduplication.md
+  - Automation (SOAR):
+      - 07-automation-soar/index.md
+      - SOAR principles: 07-automation-soar/soar-principles.md
+      - Automation catalog: 07-automation-soar/automation-catalog.md
+      - Alert fatigue and notifications: 07-automation-soar/alert-fatigue-and-notifications.md
+      - Case deduplication: 07-automation-soar/case-deduplication.md
   # TODO - Security Policies:
       # TODO - 08-security-policies/index.md
       # TODO - Policy framework: 08-security-policies/policy-framework.md
