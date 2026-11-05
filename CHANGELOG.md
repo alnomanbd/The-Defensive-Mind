@@ -2,6 +2,10 @@
 
 All notable changes to The Defensive Mind. Newest first.
 
+## [0.6.0], 2026-11-05
+
+- Security Policies section complete: index, policy framework, password and MFA, acceptable use and endpoint, access control, incident reporting, employee security guide (7 pages, as adaptable templates)
+
 ## [0.5.0], 2026-11-05
 
 - Automation and SOAR section complete: index, SOAR principles, automation catalog, alert fatigue and notifications, case deduplication (5 pages)

@@ -13,7 +13,7 @@ Pages that show "This page is being written" are planned and come first:
 - [ ] Detection engineering: testing and tuning, coverage mapping
 - [ ] Threat intelligence: IOC management
 - [x] Automation (SOAR): the full section
-- [ ] Security policies: the full section
+- [x] Security policies: the full section
 - [ ] Field guide: L3 analyst, SOC manager, investigation cheat sheet, six case walkthroughs
 - [ ] Labs and tools: open-source SOC lab, tool selection guide, useful resources
 

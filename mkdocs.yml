@@ -162,14 +162,14 @@ nav:
       - Automation catalog: 07-automation-soar/automation-catalog.md
       - Alert fatigue and notifications: 07-automation-soar/alert-fatigue-and-notifications.md
       - Case deduplication: 07-automation-soar/case-deduplication.md
-  # TODO - Security Policies:
-      # TODO - 08-security-policies/index.md
-      # TODO - Policy framework: 08-security-policies/policy-framework.md
-      # TODO - Password and MFA: 08-security-policies/password-and-mfa-policy.md
-      # TODO - Acceptable use and endpoint: 08-security-policies/acceptable-use-and-endpoint-policy.md
-      # TODO - Access control: 08-security-policies/access-control-policy.md
-      # TODO - Incident reporting: 08-security-policies/incident-reporting-policy.md
-      # TODO - Employee security guide: 08-security-policies/employee-security-guide.md
+  - Security Policies:
+      - 08-security-policies/index.md
+      - Policy framework: 08-security-policies/policy-framework.md
+      - Password and MFA: 08-security-policies/password-and-mfa-policy.md
+      - Acceptable use and endpoint: 08-security-policies/acceptable-use-and-endpoint-policy.md
+      - Access control: 08-security-policies/access-control-policy.md
+      - Incident reporting: 08-security-policies/incident-reporting-policy.md
+      - Employee security guide: 08-security-policies/employee-security-guide.md
   - Templates:
       - 09-templates/index.md
       - Incident report: 09-templates/incident-report.md
