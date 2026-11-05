@@ -58,8 +58,8 @@ Most SOC material explains *what* a SOC is. Very little shows **what an analyst 
 | [02, Daily Operations](docs/02-daily-operations/index.md) | Routines, triage, severity and SLA, handover, case management, tuning, KPIs, hunting with osquery and YARA |
 | [03, Incident Response](docs/03-incident-response/index.md) | Lifecycle, classification, escalation and legal clocks, evidence and chain of custody, post-incident review, tabletop and purple team exercises |
 | [04, Playbooks](docs/04-playbooks/index.md) | Phishing, BEC, account compromise, brute force, dark-web credential leak, malware and infostealer, ransomware, web attack, data exfiltration, insider threat, DDoS, cloud account compromise |
-| [05, Detection Engineering](docs/05-detection-engineering/index.md) | Lifecycle, writing detections, Sigma primer, rule library; testing, ATT&CK coverage *(coming soon)* |
-| [06, Threat Intelligence](docs/06-threat-intelligence/index.md) | TI lifecycle, dark-web and credential monitoring, external attack surface; IOC management *(coming soon)* |
+| [05, Detection Engineering](docs/05-detection-engineering/index.md) | Lifecycle, writing detections, Sigma primer, rule library, testing and tuning, ATT&CK coverage mapping |
+| [06, Threat Intelligence](docs/06-threat-intelligence/index.md) | TI lifecycle, dark-web and credential monitoring, external attack surface, IOC management |
 | [07, Automation (SOAR)](docs/07-automation-soar/index.md) | What to automate, recipe catalogue, alert fatigue control, case deduplication *(coming soon)* |
 | [08, Security Policies](docs/08-security-policies/index.md) | Policy framework, password and MFA, acceptable use, access control, reporting, employee guide |
 | [09, Templates](docs/09-templates/index.md) | Incident report, post-incident review, shift handover, monthly report, requests, risk acceptance |

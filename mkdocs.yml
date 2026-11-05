@@ -148,14 +148,14 @@ nav:
       - Detection lifecycle: 05-detection-engineering/detection-lifecycle.md
       - Writing good detections: 05-detection-engineering/writing-good-detections.md
       - Sigma primer: 05-detection-engineering/sigma-primer.md
-      # TODO - Testing and tuning: 05-detection-engineering/testing-and-tuning.md
-      # TODO - Coverage mapping: 05-detection-engineering/coverage-mapping.md
+      - Testing and tuning: 05-detection-engineering/testing-and-tuning.md
+      - Coverage mapping: 05-detection-engineering/coverage-mapping.md
   - Threat Intelligence:
       - 06-threat-intelligence/index.md
       - TI lifecycle: 06-threat-intelligence/ti-lifecycle.md
       - Dark web and credential monitoring: 06-threat-intelligence/dark-web-and-credential-monitoring.md
       - External attack surface: 06-threat-intelligence/external-attack-surface-management.md
-      # TODO - IOC management: 06-threat-intelligence/ioc-management.md
+      - IOC management: 06-threat-intelligence/ioc-management.md
   - Automation (SOAR):
       - 07-automation-soar/index.md
       - SOAR principles: 07-automation-soar/soar-principles.md

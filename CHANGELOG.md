@@ -2,6 +2,11 @@
 
 All notable changes to The Defensive Mind. Newest first.
 
+## [0.7.0], 2026-11-05
+
+- Detection engineering completed: testing and tuning, coverage mapping (MITRE ATT&CK)
+- Threat intelligence completed: IOC management (block vs watch, confidence, expiry, sharing)
+
 ## [0.6.0], 2026-11-05
 
 - Security Policies section complete: index, policy framework, password and MFA, acceptable use and endpoint, access control, incident reporting, employee security guide (7 pages, as adaptable templates)
