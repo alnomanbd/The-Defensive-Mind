@@ -38,7 +38,7 @@ Most SOC material explains *what* a SOC is. Very little shows **what an analyst 
 
 ## Start here
 
-> **Status: v0.1 preview.** The handbook is growing section by section. Anything marked *coming soon* is being written; see the [roadmap](ROADMAP.md).
+> **Status: all handbook sections and the 18-module training track are published.** The Word document kit is still being filled in; see the [roadmap](ROADMAP.md).
 
 | If you are... | Start with |
 |:---|:---|
@@ -60,12 +60,12 @@ Most SOC material explains *what* a SOC is. Very little shows **what an analyst 
 | [04, Playbooks](docs/04-playbooks/index.md) | Phishing, BEC, account compromise, brute force, dark-web credential leak, malware and infostealer, ransomware, web attack, data exfiltration, insider threat, DDoS, cloud account compromise |
 | [05, Detection Engineering](docs/05-detection-engineering/index.md) | Lifecycle, writing detections, Sigma primer, rule library, testing and tuning, ATT&CK coverage mapping |
 | [06, Threat Intelligence](docs/06-threat-intelligence/index.md) | TI lifecycle, dark-web and credential monitoring, external attack surface, IOC management |
-| [07, Automation (SOAR)](docs/07-automation-soar/index.md) | What to automate, recipe catalogue, alert fatigue control, case deduplication *(coming soon)* |
+| [07, Automation (SOAR)](docs/07-automation-soar/index.md) | What to automate, automation catalog, alert fatigue control, case deduplication |
 | [08, Security Policies](docs/08-security-policies/index.md) | Policy framework, password and MFA, acceptable use, access control, reporting, employee guide |
 | [09, Templates](docs/09-templates/index.md) | Incident report, post-incident review, shift handover, monthly report, requests, risk acceptance |
 | [10, Labs and Tools](docs/10-labs-and-tools/index.md) | Open-source SOC lab, tool selection, curated resources |
 | [SOC Document Kit](docs/soc-kit/index.md) | Editable Word SOPs, playbooks, governance documents, forms and reports; 33 published, 152 planned |
-| [SOC Training](docs/training/index.md) | Separate training track T01 to T15: SIEM incl. QRadar, endpoint security (EDR, XDR, UEBA), threat intel, hunting, DFIR and more *(coming soon)* |
+| [SOC Training](docs/training/index.md) | Separate training track T01 to T18: SIEM incl. QRadar, endpoint security (EDR, XDR, UEBA), threat intel, hunting, DFIR, modern and AI-driven SOC, securing AI |
 
 ## Read it as a website
 

@@ -2,6 +2,10 @@
 
 All notable changes to The Defensive Mind. Newest first.
 
+## [1.0.0], 2026-11-05
+
+- SOC Training track complete: all 18 modules (T01 to T18) published, from SOC foundations to securing AI systems, each with objectives, lessons, labs, query drills and a self-check
+
 ## [0.9.0], 2026-11-05
 
 - Labs and Tools completed: open-source SOC lab (phased build with safe attack practice), tool selection guide, useful resources

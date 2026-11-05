@@ -19,7 +19,7 @@ A step-by-step training track for SOC analysts, from the first day on shift to L
 
 ## Modules
 
-All modules are being written. They will appear in the menu one by one; see the [roadmap](https://github.com/alnomanbd/The-Defensive-Mind/blob/main/ROADMAP.md).
+All 18 modules are published. Each has objectives, lessons, a lab, query drills where relevant, and a self-check. Work them in the suggested order below, or jump to what you need.
 
 | Module | What you learn | Level |
 |---|---|---|
