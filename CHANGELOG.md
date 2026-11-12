@@ -2,6 +2,10 @@
 
 All notable changes to The Defensive Mind. Newest first.
 
+## [1.3.0], 2026-11-12
+
+- SOC Document Kit: endpoint SOPs added (SOP-18 to SOP-22): EDR and XDR alert handling, host isolation and release, endpoint agent deployment and health, UEBA anomaly review, and device control and USB exceptions (56 kit documents in total)
+
 ## [1.2.0], 2026-11-12
 
 - SOC Document Kit: detection-and-platform SOPs added (SOP-11 to SOP-17): log source onboarding, silent source response, detection rule lifecycle, detection testing, SIEM platform maintenance, tool access review, and SOC change management (51 kit documents in total)

@@ -43,11 +43,11 @@ Status: **Done** = published, **Next** = in the current batch, blank = planned.
 | SOP-15 | SIEM Platform Maintenance (patching, retention, backup) | Detection and platform | Done |
 | SOP-16 | SOC Tool Access and Account Review | Detection and platform | Done |
 | SOP-17 | SOC Change Management | Detection and platform | Done |
-| SOP-18 | EDR and XDR Alert Handling | Endpoint | |
-| SOP-19 | Host Isolation and Release | Endpoint | |
-| SOP-20 | Endpoint Agent Deployment and Health | Endpoint | |
-| SOP-21 | UEBA Anomaly Review | Endpoint | |
-| SOP-22 | Device Control and USB Exceptions | Endpoint | |
+| SOP-18 | EDR and XDR Alert Handling | Endpoint | Done |
+| SOP-19 | Host Isolation and Release | Endpoint | Done |
+| SOP-20 | Endpoint Agent Deployment and Health | Endpoint | Done |
+| SOP-21 | UEBA Anomaly Review | Endpoint | Done |
+| SOP-22 | Device Control and USB Exceptions | Endpoint | Done |
 | SOP-23 | Reported Phishing Mailbox Handling | Email and identity | |
 | SOP-24 | Email Search and Purge | Email and identity | |
 | SOP-25 | Account Disable and Session Revocation | Email and identity | |

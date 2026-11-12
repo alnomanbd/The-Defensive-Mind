@@ -53,6 +53,11 @@ The full list of planned documents is in the [catalogue](https://github.com/alno
 | SOP-15 | SIEM Platform Maintenance | [Word (.docx)](../downloads/soc-kit/sop/SOP-15-siem-platform-maintenance.docx) |
 | SOP-16 | SOC Tool Access and Account Review | [Word (.docx)](../downloads/soc-kit/sop/SOP-16-soc-tool-access-and-account-review.docx) |
 | SOP-17 | SOC Change Management | [Word (.docx)](../downloads/soc-kit/sop/SOP-17-soc-change-management.docx) |
+| SOP-18 | EDR and XDR Alert Handling | [Word (.docx)](../downloads/soc-kit/sop/SOP-18-edr-and-xdr-alert-handling.docx) |
+| SOP-19 | Host Isolation and Release | [Word (.docx)](../downloads/soc-kit/sop/SOP-19-host-isolation-and-release.docx) |
+| SOP-20 | Endpoint Agent Deployment and Health | [Word (.docx)](../downloads/soc-kit/sop/SOP-20-endpoint-agent-deployment-and-health.docx) |
+| SOP-21 | UEBA Anomaly Review | [Word (.docx)](../downloads/soc-kit/sop/SOP-21-ueba-anomaly-review.docx) |
+| SOP-22 | Device Control and USB Exceptions | [Word (.docx)](../downloads/soc-kit/sop/SOP-22-device-control-and-usb-exceptions.docx) |
 
 ## Incident Response Playbooks
 
