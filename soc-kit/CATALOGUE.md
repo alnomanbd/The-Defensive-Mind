@@ -48,10 +48,10 @@ Status: **Done** = published, **Next** = in the current batch, blank = planned.
 | SOP-20 | Endpoint Agent Deployment and Health | Endpoint | Done |
 | SOP-21 | UEBA Anomaly Review | Endpoint | Done |
 | SOP-22 | Device Control and USB Exceptions | Endpoint | Done |
-| SOP-23 | Reported Phishing Mailbox Handling | Email and identity | |
-| SOP-24 | Email Search and Purge | Email and identity | |
-| SOP-25 | Account Disable and Session Revocation | Email and identity | |
-| SOP-26 | Privileged Access Monitoring | Email and identity | |
+| SOP-23 | Reported Phishing Mailbox Handling | Email and identity | Done |
+| SOP-24 | Email Search and Purge | Email and identity | Done |
+| SOP-25 | Account Disable and Session Revocation | Email and identity | Done |
+| SOP-26 | Privileged Access Monitoring | Email and identity | Done |
 | SOP-27 | Firewall, WAF and Proxy Block Requests | Network and cloud | |
 | SOP-28 | Network IDS Alert Handling (Suricata, Zeek) | Network and cloud | |
 | SOP-29 | Cloud Security Alert Handling | Network and cloud | |

@@ -58,6 +58,10 @@ The full list of planned documents is in the [catalogue](https://github.com/alno
 | SOP-20 | Endpoint Agent Deployment and Health | [Word (.docx)](../downloads/soc-kit/sop/SOP-20-endpoint-agent-deployment-and-health.docx) |
 | SOP-21 | UEBA Anomaly Review | [Word (.docx)](../downloads/soc-kit/sop/SOP-21-ueba-anomaly-review.docx) |
 | SOP-22 | Device Control and USB Exceptions | [Word (.docx)](../downloads/soc-kit/sop/SOP-22-device-control-and-usb-exceptions.docx) |
+| SOP-23 | Reported Phishing Mailbox Handling | [Word (.docx)](../downloads/soc-kit/sop/SOP-23-reported-phishing-mailbox-handling.docx) |
+| SOP-24 | Email Search and Purge | [Word (.docx)](../downloads/soc-kit/sop/SOP-24-email-search-and-purge.docx) |
+| SOP-25 | Account Disable and Session Revocation | [Word (.docx)](../downloads/soc-kit/sop/SOP-25-account-disable-and-session-revocation.docx) |
+| SOP-26 | Privileged Access Monitoring | [Word (.docx)](../downloads/soc-kit/sop/SOP-26-privileged-access-monitoring.docx) |
 
 ## Incident Response Playbooks
 
