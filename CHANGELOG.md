@@ -2,6 +2,10 @@
 
 All notable changes to The Defensive Mind. Newest first.
 
+## [1.2.0], 2026-11-12
+
+- SOC Document Kit: detection-and-platform SOPs added (SOP-11 to SOP-17): log source onboarding, silent source response, detection rule lifecycle, detection testing, SIEM platform maintenance, tool access review, and SOC change management (51 kit documents in total)
+
 ## [1.1.0], 2026-11-05
 
 - SOC Document Kit: all 11 governance documents (GOV-01 to GOV-11) added as Word files: charter, operating model, severity and SLA standard, escalation and contact matrix, RACI, incident response policy, log retention, metrics standard, roadmap and maturity, privacy in investigations, and AI use policy (44 kit documents in total)

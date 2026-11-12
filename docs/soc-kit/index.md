@@ -46,6 +46,13 @@ The full list of planned documents is in the [catalogue](https://github.com/alno
 | SOP-08 | Case Management (open, merge, run, close) | [Word (.docx)](../downloads/soc-kit/sop/SOP-08-case-management.docx) |
 | SOP-09 | Daily, Weekly, Monthly, Quarterly and Annual Reporting | [Word (.docx)](../downloads/soc-kit/sop/SOP-09-daily-weekly-monthly-reporting.docx) |
 | SOP-10 | False Positive Handling and Tuning Requests | [Word (.docx)](../downloads/soc-kit/sop/SOP-10-false-positive-handling-and-tuning.docx) |
+| SOP-11 | Log Source Onboarding | [Word (.docx)](../downloads/soc-kit/sop/SOP-11-log-source-onboarding.docx) |
+| SOP-12 | Log Source Health and Silent Source Response | [Word (.docx)](../downloads/soc-kit/sop/SOP-12-log-source-health-and-silent-source-response.docx) |
+| SOP-13 | Detection Rule Lifecycle | [Word (.docx)](../downloads/soc-kit/sop/SOP-13-detection-rule-lifecycle.docx) |
+| SOP-14 | Detection Testing with Atomic Red Team, MITRE Caldera and Infection Monkey | [Word (.docx)](../downloads/soc-kit/sop/SOP-14-detection-testing.docx) |
+| SOP-15 | SIEM Platform Maintenance | [Word (.docx)](../downloads/soc-kit/sop/SOP-15-siem-platform-maintenance.docx) |
+| SOP-16 | SOC Tool Access and Account Review | [Word (.docx)](../downloads/soc-kit/sop/SOP-16-soc-tool-access-and-account-review.docx) |
+| SOP-17 | SOC Change Management | [Word (.docx)](../downloads/soc-kit/sop/SOP-17-soc-change-management.docx) |
 
 ## Incident Response Playbooks
 

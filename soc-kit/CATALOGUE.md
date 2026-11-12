@@ -36,13 +36,13 @@ Status: **Done** = published, **Next** = in the current batch, blank = planned.
 | SOP-08 | Case Management (open, merge, close) | Daily operations | Done |
 | SOP-09 | Daily, Weekly and Monthly Reporting | Daily operations | Done |
 | SOP-10 | False Positive Handling and Tuning Requests | Daily operations | Done |
-| SOP-11 | Log Source Onboarding | Detection and platform | |
-| SOP-12 | Log Source Health and Silent Source Response | Detection and platform | |
-| SOP-13 | Detection Rule Lifecycle | Detection and platform | |
-| SOP-14 | Detection Testing with Atomic Red Team, MITRE Caldera and Infection Monkey | Detection and platform | |
-| SOP-15 | SIEM Platform Maintenance (patching, retention, backup) | Detection and platform | |
-| SOP-16 | SOC Tool Access and Account Review | Detection and platform | |
-| SOP-17 | SOC Change Management | Detection and platform | |
+| SOP-11 | Log Source Onboarding | Detection and platform | Done |
+| SOP-12 | Log Source Health and Silent Source Response | Detection and platform | Done |
+| SOP-13 | Detection Rule Lifecycle | Detection and platform | Done |
+| SOP-14 | Detection Testing with Atomic Red Team, MITRE Caldera and Infection Monkey | Detection and platform | Done |
+| SOP-15 | SIEM Platform Maintenance (patching, retention, backup) | Detection and platform | Done |
+| SOP-16 | SOC Tool Access and Account Review | Detection and platform | Done |
+| SOP-17 | SOC Change Management | Detection and platform | Done |
 | SOP-18 | EDR and XDR Alert Handling | Endpoint | |
 | SOP-19 | Host Isolation and Release | Endpoint | |
 | SOP-20 | Endpoint Agent Deployment and Health | Endpoint | |
